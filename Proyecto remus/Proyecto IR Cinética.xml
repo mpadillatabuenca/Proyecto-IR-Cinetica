@@ -1,0 +1,2151 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE rem:requirementsProject SYSTEM "https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/xml/remus.dtd">
+<rem:requirementsProject xmlns:rem="http://rem.lsi.us.es">
+<rem:name>Proyecto IR Cinética</rem:name>
+<rem:c_requirementsSpecification oid = "CRS-0001">
+<rem:name>Especificación de Requisitos del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:preparedFor organizations = "ORG-0001 "/>
+<rem:preparedBy organizations = "ORG-0002 "/>
+<rem:section oid="SEC-0001">
+<rem:name>Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:paragraph oid="PRG-0007">
+<rem:name>[info] Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección obligatoria debe contener una descripción breve de la situación que genera la necesidad del nuevo desarrollo y cualquier otra consideración que sitúe al posible lector en el contexto oportuno para comprender el resto del documento.<br/><br/>Esta información puede que ya se encuentre total o parcialmente en documentación previa como el _Pliego de Prescripciones Técnicas_, la _Oferta seleccionada_ o el _Estudio de Viabilidad del Sistema_, en cuyo caso se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0058">
+<rem:name>Alcance del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>7</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+<rem:paragraph oid="PRG-0008">
+<rem:name>[info] Alcance del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe describir a qué elementos organizativos de la Junta de Andalucía afecta el desarrollo del nuevo sistema.<br/><br/>De forma general, debe indicar brevemente a qué sistemas de información de la organización <rem:ref oid="GLO-0019">cliente</rem:ref> afecta.<br/><br/>Si se considera oportuno, también puede indicarse a qué sistemas de infromación **NO** afecta.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0016">
+<rem:name>Ejemplo de alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El alcance del sistema &quot;X&quot; afectará a los siguientes aspectos de la organización &quot;Y&quot;:<br/><br/>* Gestión de pedidos de los clientes mediante ...<br/><br/>* Gestión de la relación con los clientes, en especial ...<br/><br/>* Gestión del inventario de productos para ...</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section oid="SEC-0085">
+<rem:name>Participantes en el proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+<rem:paragraph oid="PRG-0038">
+<rem:name>[info] Participantes en el proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección (no incluída en la documentación oficial de Madeja) debe especificar las organizaciones y las personas participantes en el proyecto.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0086">
+<rem:name>Organizaciones participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.1 </rem:number>
+<rem:organization
+ oid="ORG-0001">
+<rem:name>Organización cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:address><rem:tbd/></rem:address>
+<rem:telephone><rem:tbd/></rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
+<rem:organization
+ oid="ORG-0002">
+<rem:name>IR-GX-AAA-99</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Grupo de desarrollo.</rem:comments>
+<rem:address>E.T.S. Ingeniería Informática<br/>Avda. Reina Mercedes s/n<br/>41012 Sevilla</rem:address>
+<rem:telephone><rem:tbd/></rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
+</rem:section>
+<rem:section oid="SEC-0087">
+<rem:name>Personas participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.2 </rem:number>
+<rem:stakeholder oid="STK-0001">
+<rem:name>Pérez Pérez, Pepe</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:stakeholderRole><rem:ref oid="GLO-0019">Cliente</rem:ref></rem:stakeholderRole>
+<rem:isCustomer/>
+<rem:worksFor organization = "ORG-0001"/>
+</rem:stakeholder>
+<rem:stakeholder oid="STK-0002">
+<rem:name>Gómez Gómez, Gonzalo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0059">
+<rem:name>Objetivos del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>7</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.3 </rem:number>
+<rem:paragraph oid="PRG-0009">
+<rem:name>[info] Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe describir, a modo de resumen y a alto nivel, los principales objetivos que se esperan alcanzar cuando el sistema a desarrollar esté en producción.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0017">
+<rem:name>Ejemplo objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Los principales objetivos que se esperan alcanzar con el nuevo sistema son:<br/><br/>* Mejora de la visibilidad de la empresa.<br/><br/>* Incremento de las ventas al aumentarse la visibilidad.<br/><br/>* Mejora del tiempo de respuesta a los pedidos de los clientes.<br/><br/>* Mejora de la gestión del inventario.</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0002">
+<rem:name>Información sobre el dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:paragraph oid="PRG-0010">
+<rem:name>[info] Información sobre el dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección obligatoria debe contener información relativa al dominio del problema que permita comprender los conceptos básicos del mismo al lector del documento. Se divide en las secciones que se describen a continuación.<br/><br/>La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el _Pliego de Prescripciones Técnicas_, la _Oferta seleccionada_ o el _Estudio de Viabilidad del Sistema_, en cuyo caso se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0039">
+<rem:name>Introducción al dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.1 </rem:number>
+<rem:paragraph oid="PRG-0011">
+<rem:name>[info] Introducción al dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener una introducción al dominio del problema que ayude al lector del documento a asimilar los conceptos del glosario de términos de la siguiente sección. Se trata de dar una visión general del conjunto de conceptos que se manejan en la organización para la que se va a desarrollar el sistema software. Pueden incluirse diagramas u otro elemento multimedia si se considera oportuno para facilitar su comprensión.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0013">
+<rem:name>Ejemplo breve</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El departamento de marketing de la empresa a la que va destinado el proyecto de software se dedica fundamentalmente a optimizar los canales de distribución, realizar campañas de publicidad, cuidar la imagen corporativa de la empresa y lanzar promociones de nuevos productos. Dentro de estas actividades ...</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section oid="SEC-0029">
+<rem:name>Glosario de términos del dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.2 </rem:number>
+<rem:paragraph oid="PRG-0012">
+<rem:name>00 [info] Glosario de términos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener una lista ordenada alfabéticamente de los principales términos, acrónimos y abreviaturas específicos del dominio del problema, especialmente de los que se considere que su significado deba ser aclarado. Cada término, acrónimo o abreviatura deberá acompañarse de su definición y se podrá adjuntar material multimedia que facilite su comprensión como fotografías, documentos escaneados, diagramas o incluso vídeo o sonido en el caso de que el formato de la ERS lo permita.</rem:text>
+</rem:paragraph>
+<rem:glossaryItem oid="GLO-0019">
+<rem:name>Cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Persona o empresa a la que nuestra organización proporciona servicios. En el caso de personas particulares, los servicios habiutales suelen serr...</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0014">
+<rem:name>Merchandising</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Ventas accesorias de un producto. Por ejemplo, el <rem:ref oid="GLO-0014">merchandising</rem:ref> del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.<br/><br/>Ejemplo de imagen dentro de un elemento de glosario.<br/><br/>![Ejemplo de <rem:ref oid="GLO-0014">merchandising</rem:ref>](images/$merchandising.jpg =25%x*  &quot;Ejemplo de merchandising&quot;)<br/><br/>![Ejemplo de <rem:ref oid="GLO-0014">merchandising</rem:ref>](images/$merchandising.jpg =250x500 &quot;Ejemplo de merchandising&quot;)<br/></rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0001">
+<rem:name><rem:ref oid="GLO-0014">Merchandising</rem:ref> - Ejemplo de imagen en glosario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>12</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]<br/>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\$merchandising.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0015">
+<rem:name>[info] Imágenes dentro de markdown</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:<br/><br/>* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.<br/><br/>* **La versión de _showdown_ (1.9.1) utilizada en REMUS permite especificar el tamaño del archivo gráfico**. Consultar el [wiki de _showdown_](https://github.com/showdownjs/showdown/wiki/Showdown&apos;s-Markdown-syntax#images) para ver los detalles de la sintaxis.</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0003">
+<rem:name>Descripción de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:paragraph oid="PRG-0026">
+<rem:name>[info] Descripción de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre la situación actual de la organización para la que se va a desarrollar el sistema software. En concreto, debe contener información sobre los pros y contras de la situación actual, sobre los modelos de proceso de negocio actuales y sobre el entorno tecnológico actual de la organización, incluyendo la arquitectura orientada a servicios actual si existiera. Se divide en las secciones que se describen a continuación.<br/><br/>La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el _Pliego de Prescripciones Técnicas_, la _Oferta seleccionada_ o el _Estudio de Viabilidad del Sistema_, en cuyo caso se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0030">
+<rem:name>Pros y contras de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+<rem:paragraph oid="PRG-0029">
+<rem:name>[info] Pros y contras de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre los aspectos positivos y negativos del negocio actual de la organización para la que se va a desarrollar el sistema software.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0052">
+<rem:name>Fortalezas de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.1.1 </rem:number>
+<rem:paragraph oid="PRG-0030">
+<rem:name>[info] Fortalezas de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0039">
+<rem:name>[info] Fortalezas en REMUS</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La forma de crear un objeto _fortaleza_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[FOR-999]&quot;, donde 999 es cualquier número.</rem:text>
+</rem:paragraph>
+<rem:glossaryItem oid="GLO-0027">
+<rem:name>[FOR-0001] Cartera de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0001 "/>
+<rem:sources stakeholders="STK-0002 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La actual cartera de clientes es amplia y con un fidelidad alta, por lo que se mantienen unos ingresos estables que ...</rem:text>
+</rem:glossaryItem>
+</rem:section>
+<rem:section oid="SEC-0053">
+<rem:name>Debilidades de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.1.2 </rem:number>
+<rem:paragraph oid="PRG-0031">
+<rem:name>[info] Debilidades de la situación actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0040">
+<rem:name>[info] Debilidades en REMUS</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La forma de crear un objeto _debilidad_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[DEB-999]&quot;, donde 999 es cualquier número.</rem:text>
+</rem:paragraph>
+<rem:glossaryItem oid="GLO-0028">
+<rem:name>[DEB-0001] Competencia internacional</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>Muchos de los productos que produce la empresa se producen también en Asia a precios más competitivos, aunque con una calidad más baja por ahora. </rem:text>
+</rem:glossaryItem>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0005">
+<rem:name>Modelos de procesos de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+<rem:paragraph oid="PRG-0032">
+<rem:name>[info] Modelos de procesos de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre los modelos de procesos de negocio actuales, que suelen ser la base de los modelos de procesos de negocio a implantar.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0046">
+<rem:name>Descripción de actores de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.2.1 </rem:number>
+<rem:paragraph oid="PRG-0033">
+<rem:name>[info] Descripción de actores de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre los actores de negocio (organizaciones, roles o responsabilidades) de los modelos de procesos de negocio actuales.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0041">
+<rem:name>[info] Actores del negocio actual en REMUS</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La forma de crear un objeto _actor del negocio actual_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[ANA-999]&quot;, donde 999 es cualquier número.</rem:text>
+</rem:paragraph>
+<rem:glossaryItem oid="GLO-0035">
+<rem:name>[ANA-0001] Responsable de planta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Este actor de negocio representa a aquellas personas que están a cargo de alguna de las plantas del centro comercial para atender las incidencias que pudieran darse. Puede ser un empleado determinado de dicha planta designado al efecto o, si la planta lo requiere (por los productos que se venden) puede ser un empleado especializado contratado específicamente y que no tenga las atribuciones del resto de empleados sino sólo atender las incidencias.</rem:text>
+</rem:glossaryItem>
+</rem:section>
+<rem:section oid="SEC-0045">
+<rem:name>Descripción de procesos de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.2.2 </rem:number>
+<rem:paragraph oid="PRG-0034">
+<rem:name>[info] Descripción de procesos de negocio actuales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información sobre los procesos de negocio actuales, tal y como se realizan en la organización del <rem:ref oid="GLO-0019">cliente</rem:ref> antes del comienzo del desarrollo del sistema software. Para cada proceso de negocio se incluirá una descripción textual y uno o más  diagramas en BPMN. </rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0042">
+<rem:name>[info] Procesos de negocio actuales en REMUS</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La forma de crear un objeto _proceso de negocio actual_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[ANA-999]&quot;, donde 999 es cualquier número.</rem:text>
+</rem:paragraph>
+<rem:glossaryItem oid="GLO-0036">
+<rem:name>[PNA-0001] Realizar reserva</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>4</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una reserva para sus vacaciones lo primero que estudiamos es el destino o los posibles destinos. A continuación, es necesario conocer cuántas personas van a viajar y las edades de las mismas. Si el número de personas es suficiente para constituir un grupo se pasará la tramitación al Departamento de Viajes en grupo. Una vez que el <rem:ref oid="GLO-0019">cliente</rem:ref> ha decidido el destino, se consultará la disponibilidad de hotel en las fechas indicadas y de medios de transporte. A veces, incluso habiendo reservado el hotel tenemos que cambiar el destino por falta de billete. Dentro de este proceso, la información se toma de fuentes distintas. Hay información disponible vía web en páginas privadas para consulta de agencias de viajes y otras mediante acceso remoto (a las operadoras de vuelo, por ejemplo) también hay casos en los que es necesario recurrir a una llamada telefónica.</rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0002">
+<rem:name>Modelo de <rem:ref oid="GLO-0036">[PNA-0001] Realizar reserva</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/BPMN-AProcessWithNormalFlow.svg/420px-BPMN-AProcessWithNormalFlow.svg.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:glossaryItem oid="GLO-0043">
+<rem:name>[PNA-0002] Realizar reserva con diagrama incrustado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una reserva para sus vacaciones lo primero que estudiamos es el destino o los posibles destinos. A continuación, es necesario conocer cuántas personas van a viajar y las edades de las mismas. Si el número de personas es suficiente para constituir un grupo se pasará la tramitación al Departamento de Viajes en grupo. Una vez que el <rem:ref oid="GLO-0019">cliente</rem:ref> ha decidido el destino, se consultará la disponibilidad de hotel en las fechas indicadas y de medios de transporte. A veces, incluso habiendo reservado el hotel tenemos que cambiar el destino por falta de billete. Dentro de este proceso, la información se toma de fuentes distintas. Hay información disponible vía web en páginas privadas para consulta de agencias de viajes y otras mediante acceso remoto (a las operadoras de vuelo, por ejemplo) también hay casos en los que es necesario recurrir a una llamada telefónica.<br/><br/><br/>![Ejemplo PNA](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/BPMN-AProcessWithNormalFlow.svg/420px-BPMN-AProcessWithNormalFlow.svg.png &quot;Título opcional&quot;)</rem:text>
+</rem:glossaryItem>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0006">
+<rem:name>Entorno tecnológico actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.3 </rem:number>
+<rem:paragraph oid="PRG-0044">
+<rem:name>[info] Entorno tecnológico actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Esta sección debe contener información general sobre el entorno tecnológico en la organización del <rem:ref oid="GLO-0019">cliente</rem:ref> antes del comienzo del desarrollo del sistema software, incluyendo hardware, redes, software, etc. Se prestará especial atención a la arquitectura de servicios (servicios web SOAP, REST, buses de servicios, etc.) en funcionamiento o en desarrollo que puedan tener impacto en el sistema software a desarrollar. El objetivo es ofrecer una visión general, por lo que para los detalles más técnicos se debe remitir al lector a los documentos técnicos oportunos. Para facilitar la comprensión, se recomienda el uso de diagramas donde sea posible. Esta sección se divide en las secciones que se describen a continuación, que pueden fusionarse si se considera oportuno.</rem:text>
+</rem:paragraph>
+<rem:section oid="SEC-0054">
+<rem:name>Descripción del entorno de hardware actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.3.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0055">
+<rem:name>Descripción del entorno de software actual</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.3.2 </rem:number>
+</rem:section>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0007">
+<rem:name>Necesidades de negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+<rem:section oid="SEC-0008">
+<rem:name>Objetivos de negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.1 </rem:number>
+<rem:glossaryItem oid="GLO-0037">
+<rem:name>[HU-0001] Libros en oferta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** <rem:ref oid="GLO-0019">cliente</rem:ref>,<br/>**quiero** ver un listado de los libros en oferta,<br/>**para** comprar los que me interesen a un buen precio.<br/></rem:text>
+</rem:glossaryItem>
+</rem:section>
+<rem:section oid="SEC-0009">
+<rem:name>Modelos de procesos de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.2 </rem:number>
+<rem:section oid="SEC-0050">
+<rem:name>Descripción de actores de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.2.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0049">
+<rem:name>Descripción de procesos de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>4.2.2 </rem:number>
+</rem:section>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0048">
+<rem:name>Descripción de los subsistemas del sistema a desarrollar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0016">
+<rem:name>Catálogo de requisitos del sistema a desarrollar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:section oid="SEC-0011">
+<rem:name>Requisitos generales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0012">
+<rem:name>Casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.2 </rem:number>
+<rem:section oid="SEC-0013">
+<rem:name>Diagramas de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.2.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0014">
+<rem:name>Especificación de actores del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.2.2 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0015">
+<rem:name>Especificación de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.2.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0040">
+<rem:name>Requisitos funcionales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.3 </rem:number>
+<rem:section oid="SEC-0017">
+<rem:name>Requisitos de información del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.3.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0018">
+<rem:name>Requisitos de reglas de negocio del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.3.2 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0019">
+<rem:name>Requisitos de conducta del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.3.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0022">
+<rem:name>Requisitos no funcionales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.4 </rem:number>
+<rem:section oid="SEC-0032">
+<rem:name>Requisitos de fiabilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0033">
+<rem:name>Requisitos de usabilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.2 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0035">
+<rem:name>Requisitos de mantenibilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.3 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0034">
+<rem:name>Requisitos de eficiencia del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.4 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0036">
+<rem:name>Requisitos de portabilidad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.5 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0037">
+<rem:name>Requisitos de seguridad del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.6 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0057">
+<rem:name>Otros requisitos no funcionales del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>6.4.7 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0023">
+<rem:name>Restricciones técnicas del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.5 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0031">
+<rem:name>Requisitos de integración del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.6 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0060">
+<rem:name>Información sobre trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>9</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.7 </rem:number>
+</rem:section>
+</rem:section>
+<rem:appendix oid="SEC-0027">
+<rem:name>Actas de reuniones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>A </rem:number>
+<rem:graphicFile oid="GRF-0003">
+<rem:name>Acta primera reunión</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\$primera_acta_IR2.jpg]]></rem:fileName>
+</rem:graphicFile>
+</rem:appendix>
+<rem:appendix oid="SEC-0028">
+<rem:name>Documentación relevante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>B </rem:number>
+</rem:appendix>
+<rem:appendix oid="SEC-0038">
+<rem:name>Glosario de acrónimos y abreviaturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>C </rem:number>
+</rem:appendix>
+</rem:c_requirementsSpecification>
+<rem:d_requirementsSpecification oid = "DRS-0002">
+<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:preparedFor organizations = "ORG-0001 "/>
+<rem:preparedBy organizations = "ORG-0002 "/>
+<rem:section oid="SEC-0088">
+<rem:name>Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:section oid="SEC-0089">
+<rem:name>Alcance del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+<rem:paragraph oid="PRG-0020">
+<rem:name>[LINK] Alcance</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>PRG-0016</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section oid="SEC-0090">
+<rem:name>Participantes en el proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+<rem:section oid="SEC-0091">
+<rem:name>Organizaciones participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.1 </rem:number>
+<rem:paragraph oid="PRG-0021">
+<rem:name>[LINK] Organización cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>ORG-0001</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0022">
+<rem:name>[LINK] Organización desarrolladora</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>ORG-0002</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section oid="SEC-0092">
+<rem:name>Personas participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.2 </rem:number>
+<rem:paragraph oid="PRG-0023">
+<rem:name>[LINK] Participante 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>STK-0001</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0024">
+<rem:name>[LINK] Participante 2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>STK-0002</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0093">
+<rem:name>Objetivos del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>9</rem:month>
+<rem:day>27</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.3 </rem:number>
+<rem:paragraph oid="PRG-0025">
+<rem:name>[LINK] Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>1</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>PRG-0017</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0064">
+<rem:name>Arquitectura lógica del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:section oid="SEC-0070">
+<rem:name>Diagramas de la arquitectura del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0071">
+<rem:name>Descripción de la arquitectura del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.2 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0065">
+<rem:name>Modelo de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:section oid="SEC-0072">
+<rem:name>Diagramas de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0073">
+<rem:name>Descripción de las clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0082">
+<rem:name>Diagramas de estado de las clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0066">
+<rem:name>Modelo de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+<rem:section oid="SEC-0074">
+<rem:name>Diagramas de secuencia del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0075">
+<rem:name>Descripción de los diagramas de secuencia del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.2 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0067">
+<rem:name>Interfaz de usuario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+<rem:section oid="SEC-0076">
+<rem:name>Diagramas de navegación del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0077">
+<rem:name>Esquemas de la interfaz de usuario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.2 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0078">
+<rem:name>Descripción de la interfaz de usuario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0068">
+<rem:name>Interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:section oid="SEC-0079">
+<rem:name>Diagramas de la interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.1 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0080">
+<rem:name>Descripción de la interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.2 </rem:number>
+</rem:section>
+<rem:section oid="SEC-0084">
+<rem:name>Servicios consumidos por el sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2010</rem:year>
+<rem:month>4</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section oid="SEC-0069">
+<rem:name>Información sobre trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>11</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>7 </rem:number>
+</rem:section>
+<rem:appendix oid="SEC-0081">
+<rem:name>Glosario de acrónimos y abreviaturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>12</rem:month>
+<rem:day>2</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>A </rem:number>
+</rem:appendix>
+</rem:d_requirementsSpecification>
+<rem:defectsSpecification oid = "DFS-0003">
+<rem:name>Registro de Defectos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+</rem:defectsSpecification>
+<rem:changeRequestsSpecification oid = "CHS-0004">
+<rem:name>Registro de Peticiones de Cambio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+</rem:changeRequestsSpecification>
+<rem:predefinedValueTypes>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Alphanumeric strings</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+</rem:predefinedValueTypes>
+<rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+</rem:predefinedValues>
+</rem:requirementsProject>
