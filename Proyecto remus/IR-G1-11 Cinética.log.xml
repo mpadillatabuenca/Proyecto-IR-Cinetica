@@ -38,6 +38,30 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>GLO-0063</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación] -> [[HU-0003] Petición de cita]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0063</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** Usuario,
+**quiero** accediendo a través de mi perfil, solicitar una cita con un especialista en un día y hora concretos,
+**para** poder ser tratado en un horario cómodo.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
@@ -1662,50 +1686,6 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Ejemplo] -> [Ejemplo breve]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-!(./images/merchandising.webp "Ejemplo de merchandising")] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.webp "Ejemplo de merchandising")]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.webp "Ejemplo de merchandising")] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.webp)]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
 <rem:owner>SEC-0029</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>10</rem:month>
@@ -1732,15 +1712,6 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 <rem:description><![CDATA[Añadido hijo nº2 ([STK-0002] Analista)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0010</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
@@ -1757,19 +1728,6 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 <rem:day>30</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.webp)] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.jpg)]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -1792,19 +1750,6 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 Ejemplo breve: 
 
 _El departamento de marketing de la empresa a la que va destinado el proyecto de software se dedica fundamentalmente a optimizar los canales de distribución, realizar campañas de publicidad, cuidar la imagen corporativa de la empresa y lanzar promociones de nuevos productos._] -> [Esta sección debe contener una introducción al dominio del problema que ayude al lector del documento a asimilar los conceptos del glosario de términos de la siguiente sección. Se trata de dar una visión general del conjunto de conceptos que se manejan en la organización para la que se va a desarrollar el sistema software. Pueden incluirse diagramas u otro elemento multimedia si se considera oportuno para facilitar su comprensión.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.jpg)] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.jpg "Ejemplo de merchandising")]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1843,24 +1788,6 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 <rem:description><![CDATA[Añadido hijo nº1 ([PRG-0009] Objetivos)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El departamento de marketing de la empresa a la que va destinado el proyecto de software se dedica fundamentalmente a optimizar los canales de distribución, realizar campañas de publicidad, cuidar la imagen corporativa de la empresa y lanzar promociones de nuevos productos.]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0029</rem:owner><rem:date>
 <rem:year>2020</rem:year>
@@ -1889,20 +1816,6 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.jpg "Ejemplo de merchandising")] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>10</rem:month>
@@ -1921,201 +1834,12 @@ _El departamento de marketing de la empresa a la que va destinado el proyecto de
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.] -> [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico**, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =300x300 "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg =200x200 "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =50% "Ejemplo de ")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg "Ejemplo de ")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
 <rem:owner>SEC-0029</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Intercambiados hijos nº2 ([GLO-0014] Merchandising) y nº3 ([PRG-0015] [info] Imágenes dentro de markdown)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =50% "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =50% "Ejemplo de ")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =300X300 "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~ \¬ ^ ` ´ · (se recomiendan los tres primeros).
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.] -> [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/merchandising.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/merchandising.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/merchandising.jpg "Ejemplo de merchandising")
-
-![Nuevo logo US](images/logo_us_nuevo_1505.png "Logo US 1505")]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~ ¬ ^ ` ´ · (se recomiendan los tres primeros).
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.] -> [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~ \¬ ^ ` ´ · (se recomiendan los tres primeros).
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg "Ejemplo de merchandising")
-]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -2128,188 +1852,12 @@ Ejemplo de imagen dentro de un elemento de glosario.
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](./images/merchandising.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/merchandising.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/ejemplo.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/_merchandising.jpg =50% "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/merchandising.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/merchandising.jpg "Ejemplo de merchandising")
-
-![Nuevo logo US](images/logo_us_nuevo_1505.png "Logo US 1505")] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/ejemplo.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/_merchandising.jpg =50% "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/__merchandising.jpg =50% "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
 <rem:owner>STK-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>10</rem:month>
 <rem:day>30</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [Name] actualizada [Cliente] -> [Pérez Pérez, Pepe]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/__merchandising.jpg =50% "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchandising.jpg =50% "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/$merchandising.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchandising.jpg =50% "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =50% "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/$merchandising.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg "Ejemplo de ")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg "Ejemplo de merchandising")
-]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -2321,25 +1869,6 @@ Ejemplo de imagen dentro de un elemento de glosario.
 <rem:description><![CDATA[Añadido hijo nº3 ([PRG-0015] [info] Imágenes dentro de markdown)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede controlar el tamaño de la imagen dentro del markdown en esta versión de showdown.
-
-![Ejemplo de merchandising](images/foto_merchan.jpg =200x200 "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>PRG-0017</rem:owner><rem:date>
 <rem:year>2020</rem:year>
@@ -2347,21 +1876,6 @@ Ejemplo de imagen dentro de un elemento de glosario. **AVISO**: no se puede cont
 <rem:day>2</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =300x300 "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del Fútbol Club son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-![Ejemplo](images/foto_merchan.jpg =300X300 "Ejemplo de merchandising")
-]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -2558,23 +2072,6 @@ La información de esta sección puede que ya se encuentre total o parcialmente en
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Respecto a las imágenes dentro del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico**, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.] -> [Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico**, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
 <rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2021</rem:year>
 <rem:month>1</rem:month>
@@ -2681,15 +2178,6 @@ La actual cartera de clientes es amplia y con un fidelidad alta, por lo que se m
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Intercambiados hijos nº4 ([GRF-0001] Merchandising - Ejemplo de imagen en glosario) y nº5 ([PRG-0012] [info] Glosario de términos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>12</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [El departamento de marketing de la empresa a la que va destinado el proyecto de software se dedica fundamentalmente a optimizar los canales de distribución, realizar campañas de publicidad, cuidar la imagen corporativa de la empresa y lanzar promociones de nuevos productos.] -> [El departamento de marketing de la empresa a la que va destinado el proyecto de software se dedica fundamentalmente a optimizar los canales de distribución, realizar campañas de publicidad, cuidar la imagen corporativa de la empresa y lanzar promociones de nuevos productos. Dentro de estas actividades ...]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -3282,65 +2770,6 @@ Avda. Reina Mercedes s/n
 ]]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =100x80 "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x  "Ejemplo de merchandising")
-
-![Ejemplo de merchandising](images/$merchandising.jpg =250x500 "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x*  "Ejemplo de merchandising")
-
-![Ejemplo de merchandising](images/$merchandising.jpg =250x500 "Ejemplo de merchandising")
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **En la versión de _showdown_ utilizada en REMUS no se permite especificar el tamaño del archivo gráfico**, por lo que se mostrará en su tamaño natural, que se puede cambiar con cualquier herramienta de edición de archivos gráficos.] -> [Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **La versión de _showdown_ utilizada en REMUS, la 1.9.1, permite especificar el tamaño del archivo gráfico**. Consultar el [wiki de _showdown_](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax#images) para ver los detalles de la sintaxis.]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>GLO-0037</rem:owner><rem:date>
 <rem:year>2021</rem:year>
@@ -3348,44 +2777,6 @@ Ejemplo de imagen dentro de un elemento de glosario.
 <rem:day>28</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0015</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **La versión de _showdown_ utilizada en REMUS, la 1.9.1, permite especificar el tamaño del archivo gráfico**. Consultar el [wiki de _showdown_](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax#images) para ver los detalles de la sintaxis.] -> [Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:
-
-* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.
-
-* **La versión de _showdown_ (1.9.1) utilizada en REMUS permite especificar el tamaño del archivo gráfico**. Consultar el [wiki de _showdown_](https://github.com/showdownjs/showdown/wiki/Showdown's-Markdown-syntax#images) para ver los detalles de la sintaxis.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>11</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x* "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x  "Ejemplo de merchandising")
-
-![Ejemplo de merchandising](images/$merchandising.jpg =250x500 "Ejemplo de merchandising")
-]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -3446,25 +2837,6 @@ Ejemplo de imagen dentro de un elemento de glosario.
 <rem:day>4</rem:day>
 </rem:date>
 <rem:description><![CDATA[Añadido autor [STK-0001] Pérez Pérez, Pepe]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =100x80 "Ejemplo de merchandising")
-] -> [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x* "Ejemplo de merchandising")
-]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -4297,27 +3669,6 @@ Actualmente, cuando un cliente quiere realizar una reserva para sus vacaciones l
 <rem:day>22</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [Name] actualizada [[info] Introducción al dominio del problema] -> [Introducción al dominio del problema]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>22</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Ventas accesorias de un producto. Por ejemplo, el merchandising del un equipo de fútbol son las gorras, las camisetas, etc. que venden en locales comerciales o en los eventos del club.
-
-Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x*  "Ejemplo de merchandising")
-
-![Ejemplo de merchandising](images/$merchandising.jpg =250x500 "Ejemplo de merchandising")
-] -> [Ejemplo de imagen dentro de un elemento de glosario.
-
-![Ejemplo de merchandising](images/$merchandising.jpg =25%x*  "Ejemplo de merchandising")
-
-![Ejemplo de merchandising](images/$merchandising.jpg =250x500 "Ejemplo de merchandising")
-]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -5307,5 +4658,803 @@ Si se considera oportuno, también puede indicarse a qué sistemas de infromación 
 <rem:day>22</rem:day>
 </rem:date>
 <rem:description><![CDATA[Añadido hijo nº6 ([GLO-0066] Copia de [HU-0002] Login en la aplicación (4))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0069</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** especialista,
+**quiero** seleccionando un cliente en concreto, subir a su zona de cliente vídeos y gifs explicativos de rutinas y entrenamientos a realizar,
+**para** que el cliente pueda realizar cómodamente los entrenamientos en casa.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0064</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [[[HU-0004] Visualizar contenido de miembros] -> [[HU-0004] Visualizar contenido de miembros]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0075</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0074] Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) del proyecto C:\Users\Usuario\Desktop\Proyecto IR\Proyecto-IR-Cinetica\Proyecto remus\IR-G1-11 Cinética.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0064</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (2)] -> [[[HU-0004] Visualizar contenido de miembros]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº15 ([GLO-0075] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0068</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (6)] -> [[HU-0008] Ver historial de clientes]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0037</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** registrarme en la aplicación,
+**para** tener una cuenta para acceder al sistema.
+] -> [**Como** usuario,
+**quiero** registrarme en la aplicación,
+**para** tener una cuenta para acceder al sistema.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0066</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (4)] -> [[HU-0006] Gestión de citas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0064</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** usuario,
+**quiero** ver el contenido que un especialista me ha asginado,
+**para** poder realizar entrenamientos y estiramientos en casa.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0063</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** accediendo a través de mi perfil, solicitar una cita con un especialista en un día y hora concretos,
+**para** poder ser tratado en un horario cómodo.
+] -> [**Como** usuario,
+**quiero** accediendo a través de mi perfil, solicitar una cita con un especialista en un día y hora concretos,
+**para** poder ser tratado en un horario cómodo.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0068</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** especialista,
+**quiero** poder ver un listado de clientes que he tratado, así como los tratamientos recomendados,
+**para** llevar un seguimiento del trabajo realizado.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0065</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** usuario,
+**quiero** poder visualizar mi historial médico en la clínica, junto con la lista de sesiones a las que he asistido,
+**para** saber el avance del tratamiento.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0071</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0070] Copia de [HU-0002] Login en la aplicación (8) del proyecto C:\Users\Usuario\Desktop\Proyecto IR\Proyecto-IR-Cinetica\Proyecto remus\IR-G1-11 Cinética.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0072</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0071] Copia de Copia de [HU-0002] Login en la aplicación (8) del proyecto C:\Users\Usuario\Desktop\Proyecto IR\Proyecto-IR-Cinetica\Proyecto remus\IR-G1-11 Cinética.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0067</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** especialista,
+**quiero** ser notificado cuando un cliente reserva cita, al igual que el cliente sea recordado con 24 horas de antelación,
+**para** mantener organizados los horarios y evitar despistes de clientes.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0063</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Ninguno]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PRG-0015] [info] Imágenes dentro de markdown)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº12 ([GLO-0072] Copia de Copia de Copia de [HU-0002] Login en la aplicación (8))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº11 ([GLO-0071] Copia de Copia de [HU-0002] Login en la aplicación (8))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0067</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (5)] -> [[HU-0007] Notificado de citas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0062</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0065</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (3)] -> [[HU-0005] Ver historial médico ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0069</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (7)] -> [[HU-0009] Subir contenido a las zonas de usuarios]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0066</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** especialista,
+**quiero** poder cancelar o aplazar citas, notificando al cliente del cambio,
+**para** poder adaptar los horarios en caso de incidencia.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº16 ([GLO-0076] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0072</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de [HU-0002] Login en la aplicación (8)] -> [[HU-0012] Gestionar contratos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº14 ([GLO-0074] Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0076</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [HU-0016] Añadir venta física] -> [[HU-0016] Añadir venta física]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº17 ([GLO-0080] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) (3))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0013] Ejemplo breve con 0 hijos y 4 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº22 ([GLO-0082] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (4))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0070</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** dueño de la clínica,
+**quiero** poder gestionar facturas, almacenando, eliminando y editando pagos de clientes realizados,
+**para** facilitar la contabilidad.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0071</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** dueño de la clínica,
+**quiero** poder realizar consultas al sistema de facturas utilizando filtrados y ordenamientos,
+**para** facilitar el trabajo a la hora de gestionar facturas.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0074</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** gestor de ventas,
+**quiero** poder gestionar los productos disponibles en la tienda on-line, modificando su stock, precio y características, además de poder aplicar promociones,
+**para** mantener la tienda on-line actualizada.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº17 ([GLO-0077] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº18 ([GLO-0078] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0039</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº2 ([PRG-0013] Ejemplo breve)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0076</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0073] Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) del proyecto C:\Users\Usuario\Desktop\Proyecto IR\Proyecto-IR-Cinetica\Proyecto remus\IR-G1-11 Cinética.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº19 ([GLO-0079] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (3))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0074</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0071] Copia de Copia de [HU-0002] Login en la aplicación (8) del proyecto C:\Users\Usuario\Desktop\Proyecto IR\Proyecto-IR-Cinetica\Proyecto remus\IR-G1-11 Cinética.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº17 ([GLO-0082] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (4))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0070</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de [HU-0002] Login en la aplicación (8)] -> [[HU-0010] Registro de facturas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0072</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** dueño de la clínica,
+**quiero** llevar un control de los empleados, gestionando sus contratos, modificando sus salarios, nóminas y pudiendo asignar horas, además de registrar las horas extra,
+**para** mantener un control de los empleados.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº17 ([GLO-0079] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (3))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº13 ([GLO-0073] Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0082] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (4) con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº21 ([GLO-0081] Copia de Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0073</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [ [HU-0013] Gestionar las redes] -> [[HU-0013] Gestionar las redes]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº20 ([GLO-0080] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) (3))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0073</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0071] Copia de Copia de [HU-0002] Login en la aplicación (8) del proyecto C:\Users\Usuario\Desktop\Proyecto IR\Proyecto-IR-Cinetica\Proyecto remus\IR-G1-11 Cinética.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0071</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de [HU-0002] Login en la aplicación (8)] -> [[HU-0011] Consultar facturas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0075</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3)] -> [[HU-0015] Gestión de ventas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0074</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3)] -> [[HU-0014] Registrar a la venta producto o programa]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0073</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2)] -> [ [HU-0013] Gestionar las redes]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0073</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** gestor de redes,
+**quiero** poder subir posts en las redes de la clínica de forma automática a través de un blog, además de configurar a qué redes se suben,
+**para** atraer clientes y mantener la clínica presente en redes sociales.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0019</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Persona o empresa a la que nuestra organización proporciona servicios. En el caso de personas particulares, los servicios habiutales suelen serr...] -> [Persona o empresa a la que nuestra organización proporciona servicios. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0075</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** gestor de ventas,
+**quiero** ver un historial de ventas, junto con productos más vendidos y un resumen de estadísticas,
+**para** llevar contabilidad de las ventas.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0079] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (3) con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0081] Copia de Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0077] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (2) con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0037</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** usuario,
+**quiero** registrarme en la aplicación,
+**para** tener una cuenta para acceder al sistema.
+] -> [**Como** usuario,
+**quiero** registrarme en la aplicación utilizando unas credenciales (correo electrónico y contraseña) y asociándolo a mi persona,
+**para** tener una cuenta para acceder al sistema.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº7 ([GLO-0014] Merchandising)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0015] [info] Imágenes dentro de markdown con 0 hijos y 7 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0076</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** Usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** dueño de la clínica,
+**quiero** poder registrar cualquier venta que se realice de forma presencial, ya sea una recomendación de un programa a un cliente o la venta de un producto,
+**para** mantener registro de ventas físicas así como on-line.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0078] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) (2) con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0062</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** usuario,
+**quiero** autenticarme en la aplicación,
+**para** utilizar sus servicios.
+] -> [**Como** usuario,
+**quiero** autenticarme utilizando mis credenciales en la aplicación,
+**para** utilizar sus servicios.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº17 ([GLO-0077] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (3) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0014] Merchandising con 0 hijos y 32 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0080] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) (3) con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0064</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [**Como** usuario,
+**quiero** ver el contenido que un especialista me ha asginado,
+**para** poder realizar entrenamientos y estiramientos en casa.
+] -> [**Como** usuario,
+**quiero** ver el contenido que un especialista me ha asignado,
+**para** poder realizar entrenamientos y estiramientos en casa.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº17 ([GLO-0078] Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0010] [info] Información sobre el dominio del problema con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº17 ([GLO-0081] Copia de Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0075</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [[HU-0015] Gestión de ventas] -> [[HU-0015] Gestionar las ventas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0076</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de Copia de [HU-0002] Login en la aplicación (8) (2)] -> [HU-0016] Añadir venta física]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0010] [info] Información sobre el dominio del problema)]]></rem:description>
 </rem:change>
 </rem:log>
