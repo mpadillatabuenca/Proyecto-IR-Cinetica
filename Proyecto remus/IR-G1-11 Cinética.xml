@@ -101,20 +101,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>1.2 </rem:number>
-<rem:paragraph oid="PRG-0038">
-<rem:name>[info] Participantes en el proyecto</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección (no incluída en la documentación oficial de Madeja) debe especificar las organizaciones y las personas participantes en el proyecto.</rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0086">
 <rem:name>Organizaciones participantes</rem:name>
 <rem:version>
@@ -142,7 +128,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:address><rem:tbd/></rem:address>
+<rem:address> Glorieta Fernando Quiñones, Módulo, 14, Edificio Centris, Planta 2, 41940 Tomares, Sevilla</rem:address>
 <rem:telephone><rem:tbd/></rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
 </rem:organization>
@@ -195,7 +181,7 @@
 <rem:worksFor organization = "ORG-0001"/>
 </rem:stakeholder>
 <rem:stakeholder oid="STK-0002">
-<rem:name>Gómez Gómez, Gonzalo</rem:name>
+<rem:name>García Hernández, Cristina</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -203,6 +189,54 @@
 <rem:year>2020</rem:year>
 <rem:month>10</rem:month>
 <rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder oid="STK-0003">
+<rem:name>Terroba Orozco, Javier</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder oid="STK-0004">
+<rem:name>Espinosa Rodriguez, Mario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder oid="STK-0005">
+<rem:name>Padilla Tabuenca, Manuel Jesús</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
@@ -252,7 +286,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Los principales objetivos que se esperan alcanzar con el nuevo sistema son:<br/><br/>* Mejora de la visibilidad de la empresa.<br/><br/>* Incremento de las ventas al aumentarse la visibilidad.<br/><br/>* Mejora del tiempo de respuesta a los pedidos de los clientes.<br/><br/>* Mejora de la gestión del inventario.</rem:text>
+<rem:text>Los principales objetivos que se esperan alcanzar con el nuevo sistema son:<br/><br/>* Intuitivo y fácil de usar.<br/><br/>* Sistema que unifique las funcionalidades actuales, las pula y añada nuevas funcionalidades que serán necesarias en un futuro.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -539,36 +573,8 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.1.1 </rem:number>
-<rem:paragraph oid="PRG-0030">
-<rem:name>[info] Fortalezas de la situación actual</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.</rem:text>
-</rem:paragraph>
-<rem:paragraph oid="PRG-0039">
-<rem:name>[info] Fortalezas en REMUS</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>La forma de crear un objeto _fortaleza_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[FOR-999]&quot;, donde 999 es cualquier número.</rem:text>
-</rem:paragraph>
 <rem:glossaryItem oid="GLO-0027">
-<rem:name>[FOR-0001] Cartera de clientes</rem:name>
+<rem:name>[FOR-0001]Historial clínico</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -581,7 +587,55 @@
 <rem:authors stakeholders="STK-0001 "/>
 <rem:sources stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La actual cartera de clientes es amplia y con un fidelidad alta, por lo que se mantienen unos ingresos estables que ...</rem:text>
+<rem:text>Registrar historial clínico pacientes</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0077">
+<rem:name> [FOR-0002] Facilidad de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0001 "/>
+<rem:sources stakeholders="STK-0002 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El sistema actual es fácil de usar.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0078">
+<rem:name>[FOR-0003] Recordatorio 24h</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0001 "/>
+<rem:sources stakeholders="STK-0002 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Recuerda la cita con 24h de antelación </rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0079">
+<rem:name>[FOR-0004] Aplicación móvil para firmas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0001 "/>
+<rem:sources stakeholders="STK-0002 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>sistema de firmas pórtatil</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0053">
@@ -598,36 +652,8 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.1.2 </rem:number>
-<rem:paragraph oid="PRG-0031">
-<rem:name>[info] Debilidades de la situación actual</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.</rem:text>
-</rem:paragraph>
-<rem:paragraph oid="PRG-0040">
-<rem:name>[info] Debilidades en REMUS</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>La forma de crear un objeto _debilidad_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[DEB-999]&quot;, donde 999 es cualquier número.</rem:text>
-</rem:paragraph>
 <rem:glossaryItem oid="GLO-0028">
-<rem:name>[DEB-0001] Competencia internacional</rem:name>
+<rem:name>[DEB-0001] Calendario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -638,7 +664,21 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text><br/>Muchos de los productos que produce la empresa se producen también en Asia a precios más competitivos, aunque con una calidad más baja por ahora. </rem:text>
+<rem:text>No le resulta cómodo el calendario para citas que viene incluido en su aplicación actual.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0080">
+<rem:name>[DEB-0001] Sistema facturación y pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>No le gusta el sistema de facturacion y pagos de su sistema actual</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -656,20 +696,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.2 </rem:number>
-<rem:paragraph oid="PRG-0032">
-<rem:name>[info] Modelos de procesos de negocio actuales</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre los modelos de procesos de negocio actuales, que suelen ser la base de los modelos de procesos de negocio a implantar.</rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0046">
 <rem:name>Descripción de actores de negocio actuales</rem:name>
 <rem:version>
@@ -684,36 +710,8 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.1 </rem:number>
-<rem:paragraph oid="PRG-0033">
-<rem:name>[info] Descripción de actores de negocio actuales</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre los actores de negocio (organizaciones, roles o responsabilidades) de los modelos de procesos de negocio actuales.</rem:text>
-</rem:paragraph>
-<rem:paragraph oid="PRG-0041">
-<rem:name>[info] Actores del negocio actual en REMUS</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>La forma de crear un objeto _actor del negocio actual_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[ANA-999]&quot;, donde 999 es cualquier número.</rem:text>
-</rem:paragraph>
 <rem:glossaryItem oid="GLO-0035">
-<rem:name>[ANA-0001] Responsable de planta</rem:name>
+<rem:name>[ANA-0001] Dueño de la clínica</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -724,7 +722,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Este actor de negocio representa a aquellas personas que están a cargo de alguna de las plantas del centro comercial para atender las incidencias que pudieran darse. Puede ser un empleado determinado de dicha planta designado al efecto o, si la planta lo requiere (por los productos que se venden) puede ser un empleado especializado contratado específicamente y que no tenga las atribuciones del resto de empleados sino sólo atender las incidencias.</rem:text>
+<rem:text>Este actor de negocio representa al dueño de la clínica y único trabajador de esta. Todas las responsabilidades recaen en esta persona.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0045">
@@ -770,7 +768,7 @@
 <rem:text>La forma de crear un objeto _proceso de negocio actual_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[ANA-999]&quot;, donde 999 es cualquier número.</rem:text>
 </rem:paragraph>
 <rem:glossaryItem oid="GLO-0036">
-<rem:name>[PNA-0001] Realizar reserva</rem:name>
+<rem:name>[PNA-0001] Gestion de citas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -781,24 +779,24 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una reserva para sus vacaciones lo primero que estudiamos es el destino o los posibles destinos. A continuación, es necesario conocer cuántas personas van a viajar y las edades de las mismas. Si el número de personas es suficiente para constituir un grupo se pasará la tramitación al Departamento de Viajes en grupo. Una vez que el <rem:ref oid="GLO-0019">cliente</rem:ref> ha decidido el destino, se consultará la disponibilidad de hotel en las fechas indicadas y de medios de transporte. A veces, incluso habiendo reservado el hotel tenemos que cambiar el destino por falta de billete. Dentro de este proceso, la información se toma de fuentes distintas. Hay información disponible vía web en páginas privadas para consulta de agencias de viajes y otras mediante acceso remoto (a las operadoras de vuelo, por ejemplo) también hay casos en los que es necesario recurrir a una llamada telefónica.</rem:text>
+<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una cita me la notifica personalmente.. A continuación,introduzco manualmente la cita en google calendar.Un día antes de la cita se nos recuerda la cita tanto al <rem:ref oid="GLO-0019">cliente</rem:ref> como a mi . Una vez llegado el día, acude a la cita  y lo diagnostico. Antes de comenzar con el tratamiento, pido su consentimiento y este lo firma mediante una aplicación de firmas, de la cual dispongo en mi móvil, tras lo cual registro el historial médico y podemos comenzar. Finalmente procedemos al cobro de la sesión aunque a veces el <rem:ref oid="GLO-0019">cliente</rem:ref> quiere comprar material extra para los ejercicios, Tras todo esto, registro la factura y envío gifs por whatsapp si fuera necesario a modo explicativo para la realizacion de los ejercicios.</rem:text>
 </rem:glossaryItem>
-<rem:graphicFile oid="GRF-0002">
-<rem:name>Modelo de <rem:ref oid="GLO-0036">[PNA-0001] Realizar reserva</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0004">
+<rem:name>Modelo de <rem:ref oid="GLO-0036">[PNA-0001] gestion de citas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>5</rem:day>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/BPMN-AProcessWithNormalFlow.svg/420px-BPMN-AProcessWithNormalFlow.svg.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\$Gestion_de_citas.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0043">
-<rem:name>[PNA-0002] Realizar reserva con diagrama incrustado</rem:name>
+<rem:name>[PNA-0002] Envío de gifs</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -809,7 +807,35 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una reserva para sus vacaciones lo primero que estudiamos es el destino o los posibles destinos. A continuación, es necesario conocer cuántas personas van a viajar y las edades de las mismas. Si el número de personas es suficiente para constituir un grupo se pasará la tramitación al Departamento de Viajes en grupo. Una vez que el <rem:ref oid="GLO-0019">cliente</rem:ref> ha decidido el destino, se consultará la disponibilidad de hotel en las fechas indicadas y de medios de transporte. A veces, incluso habiendo reservado el hotel tenemos que cambiar el destino por falta de billete. Dentro de este proceso, la información se toma de fuentes distintas. Hay información disponible vía web en páginas privadas para consulta de agencias de viajes y otras mediante acceso remoto (a las operadoras de vuelo, por ejemplo) también hay casos en los que es necesario recurrir a una llamada telefónica.<br/><br/><br/>![Ejemplo PNA](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/BPMN-AProcessWithNormalFlow.svg/420px-BPMN-AProcessWithNormalFlow.svg.png &quot;Título opcional&quot;)</rem:text>
+<rem:text>Actualmente, cuando deseo enviar vídeos explicativos de los ejercicios a realizar por mis clientes, he de buscarlos en mi propio móvil y enviárselos por WhatsApp <br/></rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0005">
+<rem:name>Envío de gifs</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=35%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$envio_de_gifs.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:glossaryItem oid="GLO-0081">
+<rem:name>[PNA-0002] Gestión de facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text></rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -855,6 +881,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.3.1 </rem:number>
+<rem:paragraph oid="PRG-0082">
+<rem:name>Hardware</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La clínica consta únicamente del portatil Huawei personal del dueño y de una impresora básica.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0055">
 <rem:name>Descripción del entorno de software actual</rem:name>
@@ -870,6 +910,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.3.2 </rem:number>
+<rem:paragraph oid="PRG-0083">
+<rem:name>Software</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El sistema operativo del portatil es window 10. Los programas usados son:  google calendar para la gestión de las citas,Excel para el manejo de facturas y Clinni para los historiales médicos y gestiones de autorizaciones pertinentes, para lo cual utiliza esta misma aplicación versión móvil para las firmas. Además, utiliza whatsApp para la comunicación con sus clientes y envío de gifs explicativos.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -1154,6 +1208,62 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.2.1 </rem:number>
+<rem:glossaryItem oid="GLO-0084">
+<rem:name>[ANA-0002] Dueño de la clínica</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Este actor de negocio representa al dueño de la clínica. Encargado de configurar el sistema de nóminas y facturas. También es fisioterapeuta.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0085">
+<rem:name>[ANA-0003] Recepcionista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Este actor de negocio representa a la persona que te recibe al llegar a la clínica.Encargada de notificar de las citas pendientes, cobrar las sesiones, manejar la venta de productos y registrar las facturas.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0086">
+<rem:name>[ANA-0004] Gestor de redes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Este actor de negocio representa a la persona encargada de gestionar las redes sociales de la empresa.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0087">
+<rem:name>[ANA-0005] Especialistas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Este actor de negocio representa a los trabajadores especializados en la clínica(uroginecología ).</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0049">
 <rem:name>Descripción de procesos de negocio a implantar</rem:name>
@@ -1169,6 +1279,90 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.2.2 </rem:number>
+<rem:glossaryItem oid="GLO-0088">
+<rem:name>[PNI-0001] Gestión de citas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>En el sistema a implantar cada vez que un <rem:ref oid="GLO-0019">cliente</rem:ref> quiera pedir cita deberá iniciar sesión en la página, previo registro en esta, acto seguido seleccionará el día entre los disponibles para cita y el sistema la añadirá automáticamente a la agenda, enviando en el proceso una notificación a mi recepcionista.El día anterior a la cita el sistema mandará un recordatorio tanto al <rem:ref oid="GLO-0019">cliente</rem:ref> como a mi recepcionista. El día de la cita, la recepcionista recibirá al <rem:ref oid="GLO-0019">cliente</rem:ref> y le dará paso a la consulta. El fisioterapeuta pertinente realizará un diagnostico y  pedirá su consentimiento y este lo firmará mediante una aplicación de firmas, de la cual dispondrá en su móvil, tras lo cual registrará el historial médico y podrán comenzar. Finalmente la recepcionista llevará a cabo el cobro de la sesión, aunque a veces el <rem:ref oid="GLO-0019">cliente</rem:ref> querrá comprar material extra para los ejercicios, Tras todo esto, registrará la factura y el fisioterapeuta que realizó la sesión enviará mediante la aplicación los gifs explicativos que estime oportuno. </rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0006">
+<rem:name>Gestion de citas a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\$gestion_de_citas_nuevo.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:glossaryItem oid="GLO-0089">
+<rem:name>[PNI-0002]Envio de gifs</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Cuando un fisioterapeuta desee enviar vídeos explicativos de los ejercicios a realizar por los clientes, seleccionará de la base de datos que videos mostrarle  (incluyendo nuevos videos si no se encontrasen los que se necesitan). Cuando el <rem:ref oid="GLO-0019">cliente</rem:ref> inicie sesión con su cuenta podrá acceder a los ejercicios asignados  por el especialista.</rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0007">
+<rem:name>Envio de gifs a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=45%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$envio_de_gifs_nuevo.jpg]]></rem:fileName>
+</rem:graphicFile>
+<rem:glossaryItem oid="GLO-0090">
+<rem:name>[PNI-0003]Gestión de nóminas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Para encargarme de las nóminas, inciaré sesión en la aplicación y asignaré los salarios a los distintos trabajadores de la empresa. Tras esto el sistema se encargará de realizar los cálculos necesarios para la nómina mientras introduzco la fecha en que se producirán los pagos periódicos.  Tras esto confirmaré los cambios que haya realizado y ya el propio sistema se encargará del pago de la cantidad acordada en la fecha fijada.</rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0008">
+<rem:name>Nóminas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=65%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$nominas_nuevo.jpg]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -2162,8 +2356,8 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Integer</rem:name>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2174,7 +2368,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
+<rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0004">
@@ -2192,6 +2386,21 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0005">
 <rem:name>Date</rem:name>
 <rem:version>
@@ -2207,8 +2416,8 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Natural</rem:name>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2219,7 +2428,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
+<rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
@@ -2237,40 +2446,25 @@
 <rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
@@ -2284,22 +2478,64 @@
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectTypeValue oid = "DTV-0023">
 <rem:name>Otro</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
@@ -2314,58 +2550,22 @@
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -2380,12 +2580,6 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
 <rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
@@ -2398,10 +2592,10 @@
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
@@ -2431,6 +2625,9 @@
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
@@ -2440,41 +2637,41 @@
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
-</rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
@@ -2482,20 +2679,17 @@
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
