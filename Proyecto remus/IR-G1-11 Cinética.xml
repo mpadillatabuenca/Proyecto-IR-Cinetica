@@ -270,20 +270,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>2 </rem:number>
-<rem:paragraph oid="PRG-0010">
-<rem:name>[info] Información sobre el dominio del problema</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección obligatoria debe contener información relativa al dominio del problema que permita comprender los conceptos básicos del mismo al lector del documento. Se divide en las secciones que se describen a continuación.<br/><br/>La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el _Pliego de Prescripciones Técnicas_, la _Oferta seleccionada_ o el _Estudio de Viabilidad del Sistema_, en cuyo caso se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.</rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0039">
 <rem:name>Introducción al dominio del problema</rem:name>
 <rem:version>
@@ -312,20 +298,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Al ser la empresa a la que va destinado el proyecto software una clínica de fisioterapia y rehabilitación, maneja cierta diversidad de términos médicos.</rem:text>
 </rem:paragraph>
-<rem:paragraph oid="PRG-0013">
-<rem:name>Ejemplo breve</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>El departamento de marketing de la empresa a la que va destinado el proyecto de software se dedica fundamentalmente a optimizar los canales de distribución, realizar campañas de publicidad, cuidar la imagen corporativa de la empresa y lanzar promociones de nuevos productos. Dentro de estas actividades ...</rem:text>
-</rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0029">
 <rem:name>Glosario de términos del dominio del problema</rem:name>
@@ -353,7 +325,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Persona o empresa a la que nuestra organización proporciona servicios. En el caso de personas particulares, los servicios habiutales suelen serr...</rem:text>
+<rem:text>Persona o empresa a la que nuestra organización proporciona servicios. </rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0045">
 <rem:name>Diatermia</rem:name>
@@ -425,20 +397,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>La <rem:ref oid="GLO-0049">electroterapia</rem:ref> es uno de los tratamientos más empleados en Fisioterapia. Esta terapia consiste en aplicar corrientes eléctricas para el tratamiento de lesiones y enfermedades. Con la electroterapia podemos conseguir efectos antiinflamatorios y analgésicos, así como aliviar el dolor provocado por la lesión.</rem:text>
 </rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0014">
-<rem:name>Merchandising</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Ejemplo de imagen dentro de un elemento de glosario.<br/><br/>![Ejemplo de <rem:ref oid="GLO-0014">merchandising</rem:ref>](images/$merchandising.jpg =25%x*  &quot;Ejemplo de merchandising&quot;)<br/><br/>![Ejemplo de <rem:ref oid="GLO-0014">merchandising</rem:ref>](images/$merchandising.jpg =250x500 &quot;Ejemplo de merchandising&quot;)<br/></rem:text>
-</rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0050">
 <rem:name>Neuromodulación percutánea</rem:name>
 <rem:version>
@@ -509,20 +467,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:text>La fisioterapia manual ortopédica es una especialización dentro de la fisioterapia. Está destinada a evaluar y tratar las disfunciones artro-neuro-musculares. Se basa en el razonamiento clínico, la evidencia científica y clínica disponible, y el abordaje biopsicosocial de cada paciente.</rem:text>
 </rem:glossaryItem>
-<rem:paragraph oid="PRG-0015">
-<rem:name>[info] Imágenes dentro de markdown</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Respecto a las imágenes **dentro** del texto de _markdown_ es necesario tener en cuenta dos aspectos importantes:<br/><br/>* **Los nombres de los archivos no pueden coincidir con el nombre de un elemento de glosario**. Si coinciden, REMUS los sustituye por un enlace interno y el camino al archivo deja de ser válido. La forma de evitarlo es añadirle al nombre del archivo alguno de estos caractéres: @ $ ~.<br/><br/>* **La versión de _showdown_ (1.9.1) utilizada en REMUS permite especificar el tamaño del archivo gráfico**. Consultar el [wiki de _showdown_](https://github.com/showdownjs/showdown/wiki/Showdown&apos;s-Markdown-syntax#images) para ver los detalles de la sintaxis.</rem:text>
-</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0003">
@@ -958,18 +902,228 @@
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
 <rem:glossaryItem oid="GLO-0037">
-<rem:name>[HU-0001] Libros en oferta</rem:name>
+<rem:name>[HU-0001] Registro en la aplicación</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>28</rem:day>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** <rem:ref oid="GLO-0019">cliente</rem:ref>,<br/>**quiero** ver un listado de los libros en oferta,<br/>**para** comprar los que me interesen a un buen precio.<br/></rem:text>
+<rem:text>**Como** usuario,<br/>**quiero** registrarme en la aplicación utilizando unas credenciales (correo electrónico y contraseña) y asociándolo a mi persona,<br/>**para** tener una cuenta para acceder al sistema.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0062">
+<rem:name>[HU-0002] Login en la aplicación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** usuario,<br/>**quiero** autenticarme utilizando mis credenciales en la aplicación,<br/>**para** utilizar sus servicios.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0063">
+<rem:name>[HU-0003] Petición de cita</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** usuario,<br/>**quiero** accediendo a través de mi perfil, solicitar una cita con un especialista en un día y hora concretos,<br/>**para** poder ser tratado en un horario cómodo.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0064">
+<rem:name>[HU-0004] Visualizar contenido de miembros</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** usuario,<br/>**quiero** ver el contenido que un especialista me ha asignado,<br/>**para** poder realizar entrenamientos y estiramientos en casa.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0065">
+<rem:name>[HU-0005] Ver historial médico </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** usuario,<br/>**quiero** poder visualizar mi historial médico en la clínica, junto con la lista de sesiones a las que he asistido,<br/>**para** saber el avance del tratamiento.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0066">
+<rem:name>[HU-0006] Gestión de citas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** especialista,<br/>**quiero** poder cancelar o aplazar citas, notificando al <rem:ref oid="GLO-0019">cliente</rem:ref> del cambio,<br/>**para** poder adaptar los horarios en caso de incidencia.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0067">
+<rem:name>[HU-0007] Notificado de citas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** especialista,<br/>**quiero** ser notificado cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> reserva cita, al igual que el <rem:ref oid="GLO-0019">cliente</rem:ref> sea recordado con 24 horas de antelación,<br/>**para** mantener organizados los horarios y evitar despistes de clientes.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0068">
+<rem:name>[HU-0008] Ver historial de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** especialista,<br/>**quiero** poder ver un listado de clientes que he tratado, así como los tratamientos recomendados,<br/>**para** llevar un seguimiento del trabajo realizado.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0069">
+<rem:name>[HU-0009] Subir contenido a las zonas de usuarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** especialista,<br/>**quiero** seleccionando un <rem:ref oid="GLO-0019">cliente</rem:ref> en concreto, subir a su zona de <rem:ref oid="GLO-0019">cliente</rem:ref> vídeos y gifs explicativos de rutinas y entrenamientos a realizar,<br/>**para** que el <rem:ref oid="GLO-0019">cliente</rem:ref> pueda realizar cómodamente los entrenamientos en casa.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0070">
+<rem:name>[HU-0010] Registro de facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** dueño de la clínica,<br/>**quiero** poder gestionar facturas, almacenando, eliminando y editando pagos de clientes realizados,<br/>**para** facilitar la contabilidad.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0071">
+<rem:name>[HU-0011] Consultar facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** dueño de la clínica,<br/>**quiero** poder realizar consultas al sistema de facturas utilizando filtrados y ordenamientos,<br/>**para** facilitar el trabajo a la hora de gestionar facturas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0072">
+<rem:name>[HU-0012] Gestionar contratos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** dueño de la clínica,<br/>**quiero** llevar un control de los empleados, gestionando sus contratos, modificando sus salarios, nóminas y pudiendo asignar horas, además de registrar las horas extra,<br/>**para** mantener un control de los empleados.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0073">
+<rem:name>[HU-0013] Gestionar las redes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** gestor de redes,<br/>**quiero** poder subir posts en las redes de la clínica de forma automática a través de un blog, además de configurar a qué redes se suben,<br/>**para** atraer clientes y mantener la clínica presente en redes sociales.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0074">
+<rem:name>[HU-0014] Registrar a la venta producto o programa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** gestor de ventas,<br/>**quiero** poder gestionar los productos disponibles en la tienda on-line, modificando su stock, precio y características, además de poder aplicar promociones,<br/>**para** mantener la tienda on-line actualizada.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0075">
+<rem:name>[HU-0015] Gestionar las ventas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** gestor de ventas,<br/>**quiero** ver un historial de ventas, junto con productos más vendidos y un resumen de estadísticas,<br/>**para** llevar contabilidad de las ventas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0076">
+<rem:name>[HU-0016] Añadir venta física</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>22</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Como** dueño de la clínica,<br/>**quiero** poder registrar cualquier venta que se realice de forma presencial, ya sea una recomendación de un programa a un <rem:ref oid="GLO-0019">cliente</rem:ref> o la venta de un producto,<br/>**para** mantener registro de ventas físicas así como on-line.<br/></rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0009">
@@ -2008,8 +2162,8 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Real</rem:name>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2020,7 +2174,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
+<rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0004">
@@ -2038,23 +2192,8 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Time</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2065,7 +2204,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0003">
@@ -2083,8 +2222,8 @@
 <rem:description>Natural numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>Date</rem:name>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2095,22 +2234,34 @@
 </rem:date>
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
@@ -2118,17 +2269,20 @@
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
@@ -2142,10 +2296,40 @@
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
 <rem:description>
 <![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -2172,22 +2356,16 @@
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
 <rem:name>Inconsistencia</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -2202,22 +2380,10 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
@@ -2226,42 +2392,33 @@
 <![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
@@ -2270,9 +2427,6 @@
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
@@ -2289,59 +2443,59 @@
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
