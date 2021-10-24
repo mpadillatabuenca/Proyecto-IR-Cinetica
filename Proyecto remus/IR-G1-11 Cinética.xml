@@ -113,7 +113,7 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Ninguno</rem:comments>
+<rem:comments>Organización <rem:ref oid="GLO-0019">cliente</rem:ref>.</rem:comments>
 <rem:address> Glorieta Fernando Quiñones, Módulo, 14, Edificio Centris, Planta 2, 41940 Tomares, Sevilla</rem:address>
 <rem:telephone><rem:tbd/></rem:telephone>
 <rem:fax><rem:tbd/></rem:fax>
@@ -247,7 +247,7 @@
 <rem:level>2</rem:level>
 <rem:number>1.3 </rem:number>
 <rem:paragraph oid="PRG-0017">
-<rem:name>Ejemplo objetivos</rem:name>
+<rem:name>Objetivos del proyecto</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -258,7 +258,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Los principales objetivos que se esperan alcanzar con el nuevo sistema son:<br/><br/>* Intuitivo y fácil de usar.<br/><br/>* Sistema que unifique las funcionalidades actuales, las pula y añada nuevas funcionalidades que serán necesarias en un futuro.<br/><br/>* Agilizar y facilitar el proceso de gestión general de la clínica, mejorando su sistema anterior<br/><br/></rem:text>
+<rem:text>Los principales objetivos que se esperan alcanzar con el nuevo sistema son:<br/><br/>* Lograr un sistema intuitivo y fácil de usar.<br/><br/>* Unificar las funcionalidades actuales, pulirlas y añadir nuevas funcionalidades que serán necesarias en un futuro.<br/><br/>* Agilizar y facilitar el proceso de gestión general de la clínica, mejorando su sistema anterior.<br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -334,7 +334,7 @@
 <rem:text>Persona o empresa a la que nuestra organización proporciona servicios. </rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0094">
-<rem:name>Anamnesi</rem:name>
+<rem:name>Anamnesis</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -345,7 +345,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La anamnesis corresponde a la información almacenada por un especialista de la salud recopilada mediante preguntas, formularios a un paciente, incluso a personas relacionadas sobre una enfermedad, para conseguir información de cara a realizar el diagnóstico y tratamiento del paciente.</rem:text>
+<rem:text>La <rem:ref oid="GLO-0094">anamnesis</rem:ref> corresponde a la información almacenada por un especialista de la salud recopilada mediante preguntas, formularios a un paciente, incluso a personas relacionadas sobre una enfermedad, para conseguir información de cara a realizar el diagnóstico y tratamiento del paciente.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0045">
 <rem:name>Diatermia</rem:name>
@@ -499,7 +499,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La <rem:ref oid="GLO-0093">uroginecología</rem:ref> es una disciplina médico-quirúrgica es una especialidad de la ginecología y la urología, centrada en el estudio y tratamiento de enfermedades relacionadas con el aparato urinario, genital y piso pélvico femeninos.</rem:text>
+<rem:text>La <rem:ref oid="GLO-0093">uroginecología</rem:ref> es una disciplina médico-quirúrgica y una especialidad de la ginecología y la urología, centrada en el estudio y tratamiento de enfermedades relacionadas con el aparato urinario, genital y piso pélvico femeninos.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -517,20 +517,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>3 </rem:number>
-<rem:paragraph oid="PRG-0026">
-<rem:name>[info] Descripción de la situación actual</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre la situación actual de la organización para la que se va a desarrollar el sistema software. En concreto, debe contener información sobre los pros y contras de la situación actual, sobre los modelos de proceso de negocio actuales y sobre el entorno tecnológico actual de la organización, incluyendo la arquitectura orientada a servicios actual si existiera. Se divide en las secciones que se describen a continuación.<br/><br/>La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el _Pliego de Prescripciones Técnicas_, la _Oferta seleccionada_ o el _Estudio de Viabilidad del Sistema_, en cuyo caso se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.</rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0030">
 <rem:name>Pros y contras de la situación actual</rem:name>
 <rem:version>
@@ -545,20 +531,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
-<rem:paragraph oid="PRG-0029">
-<rem:name>[info] Pros y contras de la situación actual</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre los aspectos positivos y negativos del negocio actual de la organización para la que se va a desarrollar el sistema software.</rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0052">
 <rem:name>Fortalezas de la situación actual</rem:name>
 <rem:version>
@@ -584,13 +556,11 @@
 <rem:day>4</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0001 "/>
-<rem:sources stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Registrar historial clínico pacientes</rem:text>
+<rem:text>El historial clínico de los pacientes es fácil de registrar actualmente.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0077">
-<rem:name> [FOR-0002] Facilidad de uso del sistema</rem:name>
+<rem:name>[FOR-0002] Facilidad de uso del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -600,8 +570,6 @@
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0001 "/>
-<rem:sources stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>El sistema actual es fácil de usar.</rem:text>
 </rem:glossaryItem>
@@ -616,10 +584,8 @@
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0001 "/>
-<rem:sources stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Recuerda la cita con 24h de antelación </rem:text>
+<rem:text>El sistema actual recuerda las citas con 24h de antelación a los pacientes.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0079">
 <rem:name>[FOR-0004] Aplicación móvil para firmas</rem:name>
@@ -632,11 +598,23 @@
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0001 "/>
-<rem:sources stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>sistema de firmas pórtatil</rem:text>
+<rem:text>La aplicación de firmas pórtatil resulta cómoda de usar y no debería cambiarse.</rem:text>
 </rem:glossaryItem>
+<rem:graphicFile oid="GRF-0014">
+<rem:name>Aplicación de firmas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=25%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$Clinnifirmas2.jpeg]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0053">
 <rem:name>Debilidades de la situación actual</rem:name>
@@ -678,7 +656,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>No le gusta el sistema de facturacion y pagos de su sistema actual</rem:text>
+<rem:text>No le gusta el sistema de facturacion y pagos de su sistema actual. Utiliza excel en su lugar.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -739,34 +717,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.2 </rem:number>
-<rem:paragraph oid="PRG-0034">
-<rem:name>[info] Descripción de procesos de negocio actuales</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>1</rem:month>
-<rem:day>4</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información sobre los procesos de negocio actuales, tal y como se realizan en la organización del <rem:ref oid="GLO-0019">cliente</rem:ref> antes del comienzo del desarrollo del sistema software. Para cada proceso de negocio se incluirá una descripción textual y uno o más  diagramas en BPMN. </rem:text>
-</rem:paragraph>
-<rem:paragraph oid="PRG-0042">
-<rem:name>[info] Procesos de negocio actuales en REMUS</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>La forma de crear un objeto _proceso de negocio actual_ de MADEJA en REMUS es usar un objeto párrafo marcado como elemento de glosario y ponerle un nombre que comience por &quot;[ANA-999]&quot;, donde 999 es cualquier número.</rem:text>
-</rem:paragraph>
 <rem:glossaryItem oid="GLO-0036">
 <rem:name>[PNA-0001] Gestion de citas</rem:name>
 <rem:version>
@@ -779,7 +729,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una cita me la notifica personalmente.. A continuación,introduzco manualmente la cita en google calendar.Un día antes de la cita se nos recuerda la cita tanto al <rem:ref oid="GLO-0019">cliente</rem:ref> como a mi . Una vez llegado el día, acude a la cita  y lo diagnostico. Antes de comenzar con el tratamiento, pido su consentimiento y este lo firma mediante una aplicación de firmas, de la cual dispongo en mi móvil, tras lo cual registro el historial médico y podemos comenzar. Finalmente procedemos al cobro de la sesión aunque a veces el <rem:ref oid="GLO-0019">cliente</rem:ref> quiere comprar material extra para los ejercicios, Tras todo esto, registro la factura y envío gifs por whatsapp si fuera necesario a modo explicativo para la realizacion de los ejercicios.</rem:text>
+<rem:text><br/>Actualmente, cuando un <rem:ref oid="GLO-0019">cliente</rem:ref> quiere realizar una cita me la notifica personalmente, tras lo cual ,introduzco manualmente la cita en google calendar. Un día antes de la cita se nos recuerda la cita tanto al <rem:ref oid="GLO-0019">cliente</rem:ref> como a mí. Una vez llegado el día, acude a la cita  y lo diagnostico. Antes de comenzar con el tratamiento, pido su consentimiento y este lo firma mediante una aplicación de firmas, de la cual dispongo en mi móvil, tras lo cual registro el historial médico y podemos comenzar. Finalmente procedemos al cobro de la sesión aunque a veces el <rem:ref oid="GLO-0019">cliente</rem:ref> quiere comprar material extra para los ejercicios, Tras todo esto, registro la factura y envío gifs por whatsapp si fuera necesario a modo explicativo para la realizacion de los ejercicios.</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0004">
 <rem:name>Modelo de <rem:ref oid="GLO-0036">[PNA-0001] gestion de citas</rem:ref></rem:name>
@@ -792,7 +742,7 @@
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Ninguno</rem:comments>
+<rem:comments>[width=90%]</rem:comments>
 <rem:fileName><![CDATA[.\images\$Gestion_de_citas.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0043">
@@ -810,7 +760,7 @@
 <rem:text>Actualmente, cuando deseo enviar vídeos explicativos de los ejercicios a realizar por mis clientes, he de buscarlos en mi propio móvil y enviárselos por WhatsApp <br/></rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0005">
-<rem:name>Envío de gifs</rem:name>
+<rem:name>Modelo de <rem:ref oid="GLO-0043">[PNA-0002] Envío de gifs</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -824,7 +774,7 @@
 <rem:fileName><![CDATA[.\images\$envio_de_gifs.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0081">
-<rem:name>[PNA-0002] Gestión de facturas</rem:name>
+<rem:name>[PNA-0003] Gestión de facturas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -835,8 +785,22 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>Actualmente dispongo de una <rem:ref oid="GLO-0095">factura tipo</rem:ref> creada en excel, la cual relleno manualmente con los datos personales del <rem:ref oid="GLO-0019">cliente</rem:ref> a cobrar cada vez que debo generar una. El <rem:ref oid="GLO-0019">cliente</rem:ref> es quien decide si pagar las facturas cada sesión o todas de golpe.</rem:text>
 </rem:glossaryItem>
+<rem:graphicFile oid="GRF-0010">
+<rem:name>Modelo de <rem:ref oid="GLO-0081">[PNA-0003] Gestión de facturas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$Facturas actual.jpeg]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0006">
@@ -853,20 +817,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.3 </rem:number>
-<rem:paragraph oid="PRG-0044">
-<rem:name>[info] Entorno tecnológico actual</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Esta sección debe contener información general sobre el entorno tecnológico en la organización del <rem:ref oid="GLO-0019">cliente</rem:ref> antes del comienzo del desarrollo del sistema software, incluyendo hardware, redes, software, etc. Se prestará especial atención a la arquitectura de servicios (servicios web SOAP, REST, buses de servicios, etc.) en funcionamiento o en desarrollo que puedan tener impacto en el sistema software a desarrollar. El objetivo es ofrecer una visión general, por lo que para los detalles más técnicos se debe remitir al lector a los documentos técnicos oportunos. Para facilitar la comprensión, se recomienda el uso de diagramas donde sea posible. Esta sección se divide en las secciones que se describen a continuación, que pueden fusionarse si se considera oportuno.</rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0054">
 <rem:name>Descripción del entorno de hardware actual</rem:name>
 <rem:version>
@@ -882,7 +832,7 @@
 <rem:level>3</rem:level>
 <rem:number>3.3.1 </rem:number>
 <rem:paragraph oid="PRG-0082">
-<rem:name>Hardware</rem:name>
+<rem:name>Descripción del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -911,7 +861,7 @@
 <rem:level>3</rem:level>
 <rem:number>3.3.2 </rem:number>
 <rem:paragraph oid="PRG-0083">
-<rem:name>Software</rem:name>
+<rem:name>Descripción del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1023,7 +973,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** usuario,<br/>**quiero** poder visualizar mi historial médico en la clínica, junto con la lista de sesiones a las que he asistido,<br/>**para** saber el avance del tratamiento.<br/></rem:text>
+<rem:text>**Como** usuario,<br/>**quiero** poder visualizar mi historial médico (resumido) en la aplicación, junto con la lista de sesiones a las que he asistido,<br/>**para** saber el avance del tratamiento.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0066">
 <rem:name>[HU-0006] Gestión de citas</rem:name>
@@ -1209,7 +1159,7 @@
 <rem:level>3</rem:level>
 <rem:number>4.2.1 </rem:number>
 <rem:glossaryItem oid="GLO-0084">
-<rem:name>[ANA-0002] Dueño de la clínica</rem:name>
+<rem:name>[ANI-0001] Dueño de la clínica</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1220,10 +1170,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Este actor de negocio representa al dueño de la clínica. Encargado de configurar el sistema de nóminas y facturas. También es fisioterapeuta.</rem:text>
+<rem:text>Este actor de negocio representa al dueño de la clínica. Encargado de configurar el sistema de nóminas y facturas. También ejerce de fisioterapeuta.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0085">
-<rem:name>[ANA-0003] Recepcionista</rem:name>
+<rem:name>[ANI-0002] Recepcionista</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1234,10 +1184,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Este actor de negocio representa a la persona que te recibe al llegar a la clínica.Encargada de notificar de las citas pendientes, cobrar las sesiones, manejar la venta de productos y registrar las facturas.</rem:text>
+<rem:text>Este actor de negocio representa a la persona que recibe a los clientes al llegar a la clínica. Encargada de notificar de las citas pendientes, cobrar las sesiones, manejar la venta de productos y registrar las facturas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0086">
-<rem:name>[ANA-0004] Gestor de redes</rem:name>
+<rem:name>[ANI-0003] Gestor de redes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1251,7 +1201,7 @@
 <rem:text>Este actor de negocio representa a la persona encargada de gestionar las redes sociales de la empresa.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0091">
-<rem:name>[ANA-0005] Gestor de ventas</rem:name>
+<rem:name>[ANI-0004] Gestor de ventas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1262,10 +1212,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Este actor de negocio representa a la persona encargada de gestionar el módulo on-line de ventas, puede ser una persona designada o embarcar a todos los especialistas que la mantienen.</rem:text>
+<rem:text>Este actor de negocio representa a la persona encargada de gestionar el módulo on-line de ventas, puede ser una persona designada o un rol adicional asignado a todos los especialistas que la mantienen.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0087">
-<rem:name>[ANA-0006] Especialistas</rem:name>
+<rem:name>[ANI-0005] Especialistas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1276,7 +1226,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Este actor de negocio representa a los trabajadores especializados en la clínica (<rem:ref oid="GLO-0093">uroginecología</rem:ref>).</rem:text>
+<rem:text>Este actor de negocio representa a los trabajadores especializados en la clínica, entre los cuales habrá una o dos personas dedicadas al campo de la <rem:ref oid="GLO-0093">uroginecología</rem:ref>.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0049">
@@ -1305,10 +1255,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>En el sistema a implantar cada vez que un <rem:ref oid="GLO-0019">cliente</rem:ref> quiera pedir cita deberá iniciar sesión en la página, previo registro en esta, acto seguido seleccionará el día entre los disponibles para cita y el sistema la añadirá automáticamente a la agenda, enviando en el proceso una notificación a mi recepcionista.El día anterior a la cita el sistema mandará un recordatorio tanto al <rem:ref oid="GLO-0019">cliente</rem:ref> como a mi recepcionista. El día de la cita, la recepcionista recibirá al <rem:ref oid="GLO-0019">cliente</rem:ref> y le dará paso a la consulta. El fisioterapeuta pertinente realizará un diagnostico y  pedirá su consentimiento y este lo firmará mediante una aplicación de firmas, de la cual dispondrá en su móvil, tras lo cual registrará el historial médico y podrán comenzar. Finalmente la recepcionista llevará a cabo el cobro de la sesión, aunque a veces el <rem:ref oid="GLO-0019">cliente</rem:ref> querrá comprar material extra para los ejercicios, Tras todo esto, registrará la factura y el fisioterapeuta que realizó la sesión enviará mediante la aplicación los gifs explicativos que estime oportuno. </rem:text>
+<rem:text>En el sistema a implantar cada vez que un <rem:ref oid="GLO-0019">cliente</rem:ref> quiera pedir cita deberá iniciar sesión en la página, previo registro en esta. Acto seguido seleccionará el día entre los disponibles para cita y el sistema la añadirá automáticamente a la agenda, enviando en el proceso una notificación a mi recepcionista. El día anterior a la cita el sistema mandará un recordatorio tanto al <rem:ref oid="GLO-0019">cliente</rem:ref> como a mi recepcionista. El día de la cita, la recepcionista recibirá al <rem:ref oid="GLO-0019">cliente</rem:ref> y le dará paso a la consulta. El fisioterapeuta pertinente realizará un diagnostico y  pedirá su consentimiento, el cual este podrá dar mediante una aplicación de firmas, de la cual dispondrá en su móvil el fisioterapeuta, tras lo cual registrará el historial médico y podrán comenzar. Finalmente la recepcionista llevará a cabo el cobro de la sesión, aunque a veces el <rem:ref oid="GLO-0019">cliente</rem:ref> querrá comprar material extra para los ejercicios, Tras todo esto, registrará la factura y el fisioterapeuta que realizó la sesión enviará mediante la aplicación los gifs explicativos que estime oportuno. </rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0006">
-<rem:name>Gestion de citas a implantar</rem:name>
+<rem:name>Modelo de <rem:ref oid="GLO-0088">[PNI-0001] Gestión de citas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1318,11 +1268,11 @@
 <rem:day>22</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Ninguno</rem:comments>
+<rem:comments>[width=90%]</rem:comments>
 <rem:fileName><![CDATA[.\images\$gestion_de_citas_nuevo.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0089">
-<rem:name>[PNI-0002]Envio de gifs</rem:name>
+<rem:name>[PNI-0002] Envío de gifs</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1336,7 +1286,7 @@
 <rem:text>Cuando un fisioterapeuta desee enviar vídeos explicativos de los ejercicios a realizar por los clientes, seleccionará de la base de datos que videos mostrarle  (incluyendo nuevos videos si no se encontrasen los que se necesitan). Cuando el <rem:ref oid="GLO-0019">cliente</rem:ref> inicie sesión con su cuenta podrá acceder a los ejercicios asignados  por el especialista.</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0007">
-<rem:name>Envio de gifs a implantar</rem:name>
+<rem:name>Modelo de <rem:ref oid="GLO-0089">[PNI-0002] Envío de gifs</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1349,8 +1299,36 @@
 <rem:comments>[width=45%]</rem:comments>
 <rem:fileName><![CDATA[.\images\$envio_de_gifs_nuevo.jpg]]></rem:fileName>
 </rem:graphicFile>
+<rem:glossaryItem oid="GLO-0096">
+<rem:name>[PNI-0003] Gestión de facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>En el sistema a implantar, el personal de la clínica tendrá acceso a la lista de clientes entre los que seleccionar al suso dicho a facturar, cuyos datos se introducirán automáticamente en el modelo de factura. Al final de cada sesión, el <rem:ref oid="GLO-0019">cliente</rem:ref> decide cuántas sesiones pagar entre únicamente la actual o varias a futuro, tras lo cual el fisioterapeuta introduce el número en la aplicación y esta calcula la cuantía y genera la factura. Finalmente, el <rem:ref oid="GLO-0019">cliente</rem:ref> realiza el pago.</rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0012">
+<rem:name>Modelo de <rem:ref oid="GLO-0096">[PNI-0003] Gestión de facturas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=50%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$Facturas nuevo 1.jpeg]]></rem:fileName>
+</rem:graphicFile>
 <rem:glossaryItem oid="GLO-0090">
-<rem:name>[PNI-0003]Gestión de nóminas</rem:name>
+<rem:name>[PNI-0004] Gestión de nóminas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1364,7 +1342,7 @@
 <rem:text>Para encargarme de las nóminas, inciaré sesión en la aplicación y asignaré los salarios a los distintos trabajadores de la empresa. Tras esto el sistema se encargará de realizar los cálculos necesarios para la nómina mientras introduzco la fecha en que se producirán los pagos periódicos.  Tras esto confirmaré los cambios que haya realizado y ya el propio sistema se encargará del pago de la cantidad acordada en la fecha fijada.</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0008">
-<rem:name>Nóminas</rem:name>
+<rem:name>Modelo de <rem:ref oid="GLO-0090">[PNI-0004] Gestión de nóminas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1378,7 +1356,7 @@
 <rem:fileName><![CDATA[.\images\$nominas_nuevo.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:glossaryItem oid="GLO-0092">
-<rem:name>[PNI-0004] Venta on-line</rem:name>
+<rem:name>[PNI-0005] Venta on-line</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1392,7 +1370,7 @@
 <rem:text>Para poder vender un producto, el usuario debe iniciar sesión en el módulo de tienda de la aplicación. Tras esto, realizará la compra de los productos deseados utilizando sus credenciales, método de pago y dirección de envío en caso de ser productos físicos.<br/>El sistema comprobará la petición de compra, empezando por los datos de pago, si estos datos son erróneos, se cancela el proceso. Si todos los datos son correctos, se envía la factura de compra al usuario y se verifica si existen productos físicos, si no, se envía a la zona de usuario el plan comprado y se termina el proceso, si por el contrario son productos, se notifica a la clínica para que prepare esos productos, los envíe, y lleguen al usuario.</rem:text>
 </rem:glossaryItem>
 <rem:graphicFile oid="GRF-0009">
-<rem:name>Venta on-line</rem:name>
+<rem:name>Modelo de <rem:ref oid="GLO-0092">[PNI-0005] Venta on-line</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1402,8 +1380,8 @@
 <rem:day>23</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>[width=65%]</rem:comments>
-<rem:fileName><![CDATA[..\..\..\Venta on-line.png]]></rem:fileName>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$Venta on-line.png]]></rem:fileName>
 </rem:graphicFile>
 </rem:section>
 </rem:section>
@@ -1763,7 +1741,7 @@
 <rem:day>20</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Ninguno</rem:comments>
+<rem:comments>[width=70%]</rem:comments>
 <rem:fileName><![CDATA[.\images\$primera_acta_IR2.jpg]]></rem:fileName>
 </rem:graphicFile>
 </rem:appendix>
@@ -1781,6 +1759,34 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>B </rem:number>
+<rem:glossaryItem oid="GLO-0095">
+<rem:name>Factura tipo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Plantilla de factura creada por el <rem:ref oid="GLO-0019">cliente</rem:ref> en excel:</rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0011">
+<rem:name><rem:ref oid="GLO-0095">Factura tipo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\$Factura tipo.jpeg]]></rem:fileName>
+</rem:graphicFile>
 </rem:appendix>
 <rem:appendix oid="SEC-0038">
 <rem:name>Glosario de acrónimos y abreviaturas</rem:name>
@@ -2398,21 +2404,6 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0006">
-<rem:name>Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Hour:minutes:seconds</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0003">
 <rem:name>Natural</rem:name>
 <rem:version>
@@ -2426,36 +2417,6 @@
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
 <rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
@@ -2473,6 +2434,36 @@
 <rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Alphanumeric strings</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0005">
 <rem:name>Date</rem:name>
 <rem:version>
@@ -2488,6 +2479,21 @@
 <rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0006">
+<rem:name>Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0001">
@@ -2496,42 +2502,48 @@
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
@@ -2544,28 +2556,22 @@
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
@@ -2580,6 +2586,54 @@
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
@@ -2592,65 +2646,17 @@
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
@@ -2664,32 +2670,38 @@
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
-</rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
@@ -2697,20 +2709,8 @@
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
@@ -2718,9 +2718,18 @@
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
@@ -2729,9 +2738,6 @@
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
