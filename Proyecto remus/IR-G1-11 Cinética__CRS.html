@@ -350,11 +350,11 @@ El ejercicio es otra técnica más de tratamiento utilizada en la clínica, tanto p
 En cuanto a la compra de material clínico se hace en distintas empresas destacadas del sector, como son, Quirumed, La Casa del Fisio o Fisaude. El material deportivo en fitness digital y capital sport.</p></div>
 </div>
 <h2 id="SEC-0029" class="section">2.2 Glosario de términos del dominio del problema</h2>
-<div id="GLO-0019" class="glo">
-<div id="GLO-0019-text-html" class=""><p><strong>Cliente</strong>: Persona o empresa a la que nuestra organización proporciona servicios. </p></div>
-</div>
 <div id="GLO-0094" class="glo">
 <div id="GLO-0094-text-html" class=""><p><strong>Anamnesis</strong>: La <a href='#GLO-0094' class="rem_ref">anamnesis</a> corresponde a la información almacenada por un especialista de la salud recopilada mediante preguntas, formularios a un paciente, incluso a personas relacionadas sobre una enfermedad, para conseguir información de cara a realizar el diagnóstico y tratamiento del paciente.</p></div>
+</div>
+<div id="GLO-0019" class="glo">
+<div id="GLO-0019-text-html" class=""><p><strong>Cliente</strong>: Persona o empresa a la que nuestra organización proporciona servicios. </p></div>
 </div>
 <div id="GLO-0045" class="glo">
 <div id="GLO-0045-text-html" class=""><p><strong>Diatermia</strong>: Técnica de tratamiento utilizada en rehabilitación. Emplea campos magnéticos o eléctricos de una frecuencia de 0.3 a 1 MHz con una potencia de algunos cientos de vatios. Para la administración de un calor profundo, con el objetivo de aliviar dolor, o estimular procesos regenerativos.</p></div>
@@ -1678,7 +1678,7 @@ Esta es una característica que desearía mantener para futuros trabajadores.</p><
 </table>
 </div>
 <div id="GRF-0008" class="figure">
-<img class="figure_image" src=".\images\$nominas.png" />
+<img class="figure_image" src=".\images\$nominas.png" width="96%%" />
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 9:
                  </span>
@@ -1715,7 +1715,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </table>
 </div>
 <div id="GRF-0009" class="figure">
-<img class="figure_image" src=".\images\$proceso_venta.png" width="80%%" />
+<img class="figure_image" src=".\images\$proceso_venta.png" width="96%%" />
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 10:
                  </span>
@@ -1723,6 +1723,9 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </p>
 </div>
 <h1 id="SEC-0048" class="section">5 Descripción de los subsistemas del sistema a desarrollar</h1>
+<div id="PRG-0110">
+<div id="PRG-0110-text-html" class=""><p>Dada la reducida magnitud del sistema a implementar, se ha estimado innecesaria la separación del mismo en subsistemas para la realización de este documento.</p></div>
+</div>
 <h1 id="SEC-0016" class="section">6 Catálogo de requisitos del sistema a desarrollar</h1>
 <h2 id="SEC-0011" class="section">6.1 Requisitos generales del sistema</h2>
 <h2 id="SEC-0012" class="section">6.2 Casos de uso del sistema</h2>
@@ -1731,18 +1734,947 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <h3 id="SEC-0015" class="section">6.2.3 Especificación de casos de uso del sistema</h3>
 <h2 id="SEC-0040" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0017" class="section">6.3.1 Requisitos de información del sistema</h3>
+<div id="IRQ-0001">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0001</th>
+<th class="name_column" colspan="2">Cliente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0001-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los clientes para el correcto funcionamiento de esta. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0001">
+<span id="DAT-0001-description-html" class="">Nombre</span>
+</li>
+<li id="DAT-0002">
+<span id="DAT-0002-description-html" class="">Apellidos</span>
+</li>
+<li id="DAT-0003">
+<span id="DAT-0003-description-html" class="">Correo</span>
+</li>
+<li id="DAT-0004">
+<span id="DAT-0004-description-html" class="">Contraseña</span>
+</li>
+<li id="DAT-0005">
+<span id="DAT-0005-description-html" class="">Dirrección</span>
+</li>
+<li id="DAT-0006">
+<span id="DAT-0006-description-html" class="">Teléfono</span>
+</li>
+<li id="DAT-0007">
+<span id="DAT-0007-description-html" class="">DNI</span>
+</li>
+<li id="DAT-0008">
+<span id="DAT-0008-description-html" class="">Resumen de historial clínico (<em>Solo visible y editable por los trabajadores de la clínica</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0002">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0002</th>
+<th class="name_column" colspan="2">Especialista</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los especialistas para el correcto funcionamiento de esta. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0009">
+<span id="DAT-0009-description-html" class="">Nombre</span>
+</li>
+<li id="DAT-0010">
+<span id="DAT-0010-description-html" class="">Apellidos</span>
+</li>
+<li id="DAT-0011">
+<span id="DAT-0011-description-html" class="">Correo</span>
+</li>
+<li id="DAT-0012">
+<span id="DAT-0012-description-html" class="">Contraseña</span>
+</li>
+<li id="DAT-0013">
+<span id="DAT-0013-description-html" class="">Dirrección</span>
+</li>
+<li id="DAT-0014">
+<span id="DAT-0014-description-html" class="">Teléfono</span>
+</li>
+<li id="DAT-0015">
+<span id="DAT-0015-description-html" class="">DNI</span>
+</li>
+<li id="DAT-0016">
+<span id="DAT-0016-description-html" class="">Cuenta bancaria</span>
+</li>
+<li id="DAT-0025">
+<span id="DAT-0025-description-html" class="">Especialidad (<em>Uroginecólogo, fisioterapeuta, o entrenador</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0003">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0003</th>
+<th class="name_column" colspan="2">Personal clínica</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0003-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los trabajadores de la clínica encargados de tareas de gestión. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0017">
+<span id="DAT-0017-description-html" class="">Nombre</span>
+</li>
+<li id="DAT-0018">
+<span id="DAT-0018-description-html" class="">Apellidos</span>
+</li>
+<li id="DAT-0019">
+<span id="DAT-0019-description-html" class="">Correo</span>
+</li>
+<li id="DAT-0020">
+<span id="DAT-0020-description-html" class="">Contraseña</span>
+</li>
+<li id="DAT-0021">
+<span id="DAT-0021-description-html" class="">Dirrección</span>
+</li>
+<li id="DAT-0022">
+<span id="DAT-0022-description-html" class="">Teléfono</span>
+</li>
+<li id="DAT-0023">
+<span id="DAT-0023-description-html" class="">DNI</span>
+</li>
+<li id="DAT-0024">
+<span id="DAT-0024-description-html" class="">Cuenta bancaria</span>
+</li>
+<li id="DAT-0035">
+<span id="DAT-0035-description-html" class="">Profesión (<em>Propietario, gestoría, limpieza o administración</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0004">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0004</th>
+<th class="name_column" colspan="2">Cita</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0004-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las citas pendientes y pasadas. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0026">
+<span id="DAT-0026-description-html" class="">Fecha y hora</span>
+</li>
+<li id="DAT-0027">
+<span id="DAT-0027-description-html" class=""><a href='#GLO-0019' class="rem_ref">Cliente</a> que la solicita/solicitó</span>
+</li>
+<li id="DAT-0028">
+<span id="DAT-0028-description-html" class="">Especialista asignado</span>
+</li>
+<li id="DAT-0029">
+<span id="DAT-0029-description-html" class="">Descripción del especialista (<em>solo visible por este</em>)</span>
+</li>
+<li id="DAT-0030">
+<span id="DAT-0030-description-html" class="">Comentario para el <a href='#GLO-0019' class="rem_ref">cliente</a></span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0005">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0005</th>
+<th class="name_column" colspan="2">Factura</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0005-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las facturas de las citas. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0036">
+<span id="DAT-0036-description-html" class=""><a href='#GLO-0019' class="rem_ref">Cliente</a> asociado a la factura</span>
+</li>
+<li id="DAT-0037">
+<span id="DAT-0037-description-html" class="">Cita(s) asociada(s)</span>
+</li>
+<li id="DAT-0038">
+<span id="DAT-0038-description-html" class="">Precio total</span>
+</li>
+<li id="DAT-0039">
+<span id="DAT-0039-description-html" class="">Método de pago (<em>solo visible por este</em>)</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0006">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0006</th>
+<th class="name_column" colspan="2">GIF</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0006-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los GIFs enviables a cada <a href='#GLO-0019' class="rem_ref">cliente</a>. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0041">
+<span id="DAT-0041-description-html" class="">URL</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0007">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0007</th>
+<th class="name_column" colspan="2">Nómina</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0007-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las nóminas de cada trabajador. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0045">
+<span id="DAT-0045-description-html" class="">Trabajador de la clínica asociado</span>
+</li>
+<li id="DAT-0046">
+<span id="DAT-0046-description-html" class="">Salario</span>
+</li>
+<li id="DAT-0047">
+<span id="DAT-0047-description-html" class="">Día de pago</span>
+</li>
+<li id="DAT-0048">
+<span id="DAT-0048-description-html" class="">Descuentos del IRPF</span>
+</li>
+<li id="DAT-0049">
+<span id="DAT-0049-description-html" class="">Líquido total</span>
+</li>
+<li id="DAT-0050">
+<span id="DAT-0050-description-html" class="">Cotización anual</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0008">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0008</th>
+<th class="name_column" colspan="2">Producto</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0008-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los productos que ofrece la tienda online. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data"><li id="DAT-0051">
+<span id="DAT-0051-description-html" class="">Tipo de producto (<em>Físico u online</em>)</span>
+</li>
+<li id="DAT-0052">
+<span id="DAT-0052-description-html" class="">Nombre del producto</span>
+</li>
+<li id="DAT-0053">
+<span id="DAT-0053-description-html" class="">Descripción</span>
+</li>
+<li id="DAT-0054">
+<span id="DAT-0054-description-html" class="">Precio</span>
+</li>
+<li id="DAT-0055">
+<span id="DAT-0055-description-html" class="">URL de imagen</span>
+</li>
+<li id="DAT-0056">
+<span id="DAT-0056-description-html" class="">Stock</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">quedaría bien</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0009">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0009</th>
+<th class="name_column" colspan="2">Pedido</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0009-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los pedidos realizados en la tienda online. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0057">
+<span id="DAT-0057-description-html" class=""><a href='#GLO-0019' class="rem_ref">Cliente</a> que ha realizado el pedido</span>
+</li>
+<li id="DAT-0058">
+<span id="DAT-0058-description-html" class="">Fecha</span>
+</li>
+<li id="DAT-0059">
+<span id="DAT-0059-description-html" class="">Método de pago</span>
+</li>
+<li id="DAT-0060">
+<span id="DAT-0060-description-html" class="">Productos asociados al pedido, con la cantidad pedida de cada uno</span>
+</li>
+<li id="DAT-0061">
+<span id="DAT-0061-description-html" class="">Dirección de envío</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">quedaría bien</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0018" class="section">6.3.2 Requisitos de reglas de negocio del sistema</h3>
+<div id="CRQ-0001">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0001</th>
+<th class="name_column" colspan="1">Creación de nóminas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0001-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: Solo la gestoría puede crear y gestionar las nóminas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0002">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0002</th>
+<th class="name_column" colspan="1">Historial clínico</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0002-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: El <a href='#GLO-0019' class="rem_ref">cliente</a> solo puede ver comentarios de su historial clínico, no la información completa..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0003">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0003</th>
+<th class="name_column" colspan="1">Cancelación de citas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0003-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: El <a href='#GLO-0019' class="rem_ref">cliente</a> solo podrá cancelar sus citas pendientes con un mínimo de 24h de antelación. Esto lo realiará a través de la recepción..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0019" class="section">6.3.3 Requisitos de conducta del sistema</h3>
+<div id="FRQ-0001">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0001</th>
+<th class="name_column" colspan="1">Dirección envío</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0001-description-html" class=""><p>El sistema deberá requerir la dirección de un pedido solo si en este hay al menos un producto físico.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0002">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0002</th>
+<th class="name_column" colspan="1">Modificación perfil</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0002-description-html" class=""><p>El sistema deberá permitir la modificación de datos personales a los clientes.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0003">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0003</th>
+<th class="name_column" colspan="1">Gestión de facturas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0003-description-html" class=""><p>El sistema deberá permitir la generación y gestión de facturas únicamente a la recepción..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0004">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0004</th>
+<th class="name_column" colspan="1">Cancelación de citas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0004-description-html" class=""><p>El sistema deberá permitir la cancelación de citas únicamente a la recepción.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0005">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0005</th>
+<th class="name_column" colspan="1">Modificación de historial clínico</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0005-description-html" class=""><p>El sistema deberá permitir la modificación de comentarios y descripciones de citas pasadas a los especialistas asociados a estas..</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0006">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0006</th>
+<th class="name_column" colspan="1">Propietario licenciado</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0006-description-html" class=""><p>El sistema deberá permitir al propietario ejercer como especialista.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0022" class="section">6.4 Requisitos no funcionales del sistema</h2>
 <h3 id="SEC-0032" class="section">6.4.1 Requisitos de fiabilidad del sistema</h3>
+<div id="NFR-0004">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0004</th>
+<th class="name_column" colspan="1">Tolerancia a fallos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0004-description-html" class=""><p>El sistema deberá disponer de métodos alternativos de almacenamiento de datos para evitar la pérdida de estos en caso de fallo del servidor.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0033" class="section">6.4.2 Requisitos de usabilidad del sistema</h3>
+<div id="NFR-0001">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0001</th>
+<th class="name_column" colspan="1">Tutoriales integrados</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0001-description-html" class=""><p>El sistema deberá disponer de tutoriales orientados tanto a clientes como a trabajadores de la clínica para facilitar el aprendizaje y uso de esta.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0002">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0002</th>
+<th class="name_column" colspan="1">Interfaces sencillas</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0002-description-html" class=""><p>El sistema deberá disponer de interfaces sencillas e intuitivas que no supongan un detrimento al uso de esta.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0035" class="section">6.4.3 Requisitos de mantenibilidad del sistema</h3>
+<div id="PRG-0112">
+<div id="PRG-0112-text-html" class=""><p>No aplica</p></div>
+</div>
 <h3 id="SEC-0034" class="section">6.4.4 Requisitos de eficiencia del sistema</h3>
+<div id="NFR-0003">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0003</th>
+<th class="name_column" colspan="1">Tiempo de ejecución</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0003-description-html" class=""><p>El sistema deberá tener tiempos de respuesta cortos para no afectar de forma negativa al uso.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">quedaría bien</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0036" class="section">6.4.5 Requisitos de portabilidad del sistema</h3>
+<div id="PRG-0111">
+<div id="PRG-0111-text-html" class=""><p>No aplica</p></div>
+</div>
 <h3 id="SEC-0037" class="section">6.4.6 Requisitos de seguridad del sistema</h3>
+<div id="FRQ-0007">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0007</th>
+<th class="name_column" colspan="1">Encriptación de datos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (20/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0007-description-html" class=""><p>El sistema deberá preservar la privacidad de los clientes almacenando de forma segura sus datos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0057" class="section">6.4.7 Otros requisitos no funcionales del sistema</h3>
+<div id="PRG-0113">
+<div id="PRG-0113-text-html" class=""><p>No aplica</p></div>
+</div>
 <h2 id="SEC-0023" class="section">6.5 Restricciones técnicas del sistema</h2>
 <h2 id="SEC-0031" class="section">6.6 Requisitos de integración del sistema</h2>
+<div id="PRG-0114">
+<div id="PRG-0114-text-html" class=""><p>No aplica, comentamos con el <a href='#GLO-0019' class="rem_ref">cliente</a> la posibilidad de integrar la futura aplicación con la aplicación actual de firmas, pero no le pareció una acción necesaria si el nuevo sistema es capaz de suplir esa funcionalidad también.</p></div>
+</div>
 <h2 id="SEC-0060" class="section">6.7 Información sobre trazabilidad</h2>
 <h1 id="SEC-0027" class="appendix">A Actas de reuniones</h1>
 <div id="GRF-0003" class="figure">
@@ -1761,14 +2693,22 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <span id="GRF-0015-name-html" class="">Acta segunda reunión</span>
 </p>
 </div>
+<div id="GRF-0018" class="figure">
+<img class="figure_image" src=".\images\$tercera_acta_IR2.jpg" width="70%%" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 13:
+                 </span>
+<span id="GRF-0018-name-html" class="">Acta tercera reunión</span>
+</p>
+</div>
 <h1 id="SEC-0028" class="appendix">B Documentación relevante</h1>
 <div id="GLO-0095" class="glo">
-<div id="GLO-0095-text-html" class=""><p><strong>Factura tipo</strong>: Plantilla de factura creada por el <a href='#GLO-0019' class="rem_ref">cliente</a> en excel:</p></div>
+<div id="GLO-0095-text-html" class=""><p><strong>Factura tipo</strong>: Plantilla de factura creada por el <a href='#GLO-0019' class="rem_ref">cliente</a> en excel</p></div>
 </div>
 <div id="GRF-0011" class="figure">
 <img class="figure_image" src=".\images\$Factura tipo.jpeg" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 13:
+<span class="figure_caption_label">Figura 14:
                  </span>
 <span id="GRF-0011-name-html" class=""><a href='#GLO-0095' class="rem_ref">Factura tipo</a></span>
 </p>
