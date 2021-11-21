@@ -1730,8 +1730,621 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <h2 id="SEC-0011" class="section">6.1 Requisitos generales del sistema</h2>
 <h2 id="SEC-0012" class="section">6.2 Casos de uso del sistema</h2>
 <h3 id="SEC-0013" class="section">6.2.1 Diagramas de casos de uso del sistema</h3>
+<div id="GRF-0023" class="figure">
+<img class="figure_image" src=".\images\$Casos_de_uso_area_de_clientes.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 11:
+                 </span>
+<span id="GRF-0023-name-html" class="">Casos de uso área de clientes</span>
+</p>
+</div>
+<div id="GRF-0024" class="figure">
+<img class="figure_image" src=".\images\$Casos_de_uso_area_de_especialistas.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 12:
+                 </span>
+<span id="GRF-0024-name-html" class="">Casos de uso área de especialistas</span>
+</p>
+</div>
+<div id="GRF-0025" class="figure">
+<img class="figure_image" src=".\images\$Casos_de_uso_area_de_gestion.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 13:
+                 </span>
+<span id="GRF-0025-name-html" class="">Casos de uso área de gestión</span>
+</p>
+</div>
 <h3 id="SEC-0014" class="section">6.2.2 Especificación de actores del sistema</h3>
+<div id="ACT-0001">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0001</th>
+<th class="name_column" colspan="1">Cliente</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0001-actorRole-html" class=""><p>Este actor representa al usuario que interactúa con la aplicación, es el tipo de persona a la que va destinada el área de clientes y el actor objetivo de la aplicación en general.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0002">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0002</th>
+<th class="name_column" colspan="1">Especialista</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0002-actorRole-html" class=""><p>Este actor representa los trabajadores de la clínica, exceptuando los actores del área de gestión. En concreto a las personas que ofrecen servicios a los clientes, ya sean entrenamientos, masajes, etc...</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0003">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0003</th>
+<th class="name_column" colspan="1">Encargado de la tienda</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0003-actorRole-html" class=""><p>Este actor representa a la persona o personas que se encarguen de gestionar la tienda on-line de la clínica, pudiendo añadir productos, modificar los existentes, modificar el inventario o enviar los productos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0004">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0004</th>
+<th class="name_column" colspan="1">Recepción</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0004-actorRole-html" class=""><p>Este actor representa a la persona o personas que estén en la recepción de la clínica, cuyo rol principal es además de recibir a los clientes, revisar las citas, poder cancelarlas y gestionar las facturas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0005">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0005</th>
+<th class="name_column" colspan="1">Jefe de la clínica</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0005-actorRole-html" class=""><p>Este actor representa al jefe de la clínica, es el encargado de la gestión de trabajadores y sus nóminas, además de poseer el puesto más alto dentro de la jerarquía de empleados de la clínica, por lo que gestiona de forma general todos los aspectos de la misma.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h3 id="SEC-0015" class="section">6.2.3 Especificación de casos de uso del sistema</h3>
+<div id="PRG-0128">
+<div id="PRG-0128-text-html" class=""><p>En todas las secuencias de los casos de uso se asume que el usuario ha iniciado sesión correctamente en la aplicación.</p></div>
+</div>
+<div id="UC-0001">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0001</th>
+<th class="name_column" colspan="2">Modificar perfil </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0001--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario desea modificar su perfil   </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0001-precondition-html" class=""><p>El usuario de la aplicación se ha identificado en la aplicación y desea modificar sus datos personales</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0067">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0067--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede al formulario de modificación de perfil</p></div>
+</td>
+</tr>
+<tr id="STP-0068">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0068--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     envía el formulario de modificación de perfil con los cambios deseados   </p></div>
+</td>
+</tr>
+<tr id="STP-0069">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0069--html" class=""><p>El sistema valida los cambios en el perfil y modifica los cambios del usuario   </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0001-postcondition-html" class=""><p>El perfil del usuario se muestra cambiado con los nuevos datos proporcionados</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="2">Excepciones</th>
+<th class="step_number_column">Paso</th>
+<th class="exception_action_column">Acción</th>
+</tr>
+<tr id="STX-0004">
+<th class="step_number">3</th>
+<td colspan="1"><div id="STX-0004--html" class=""><p>Si el usuario introduce unas credenciales erróneas,  el sistema le notificará del error, a continuación este caso de uso queda sin efecto. </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0002">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0002</th>
+<th class="name_column" colspan="2">Ver tratamientos y gifs </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0002--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario desea ver sus tratamientos. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0002-precondition-html" class=""><p>El usuario de la aplicación se ha identificado en la aplicación y desea ver los tratamientos asignados </p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="3">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0070">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0070--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede al tratamiento que desea visualizar de la lista en su perfil</p></div>
+</td>
+</tr>
+<tr id="STP-0072">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0072--html" class=""><p>El sistema muestra los datos de ese tratamiento, incluyendo el resumen del especialista y los vídeos enviados por el mismo   </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0002-postcondition-html" class=""><p>Se muestra al usuario la página de tratamientos asignados a su perfil</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0003">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0003</th>
+<th class="name_column" colspan="2">Realizar compras </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0003--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario desea realizar compras en la tienda on-line de la aplicación. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0003-precondition-html" class=""><p>El usuario de la aplicación se ha identificado en la aplicación y desea realizar compras en la tienda</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0073">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0073--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede a la tienda on-line   </p></div>
+</td>
+</tr>
+<tr id="STP-0074">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0074--html" class=""><p>El sistema muestra los productos disponibles, así como la cesta del cliente</p></div>
+</td>
+</tr>
+<tr id="STP-0075">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0075--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     añade los productos que desee a la cesta</p></div>
+</td>
+</tr>
+<tr id="STP-0076">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0076--html" class=""><p>El sistema procede al pago de los productos, introduciendo dirección en caso de ser productos físicos. Además, introduce el método de pago</p></div>
+</td>
+</tr>
+<tr id="STP-0077">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0077--html" class=""><p>El sistema valida el método de pago introducido por el cliente   </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0003-postcondition-html" class=""><p>El sistema muestra al usuario la tienda on-line, y proporciona los productos en el caso de haber realizado alguna compra</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="2">Excepciones</th>
+<th class="step_number_column">Paso</th>
+<th class="exception_action_column">Acción</th>
+</tr>
+<tr id="STX-0005">
+<th class="step_number">5</th>
+<td colspan="1"><div id="STX-0005--html" class=""><p>Si datos de pago incorrectos,  el sistema notifica al usuario del error, a continuación este caso de uso queda sin efecto. </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0004">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0004</th>
+<th class="name_column" colspan="2">Solicitar una cita </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0004--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario desea solicitar una cita con un especialista en una fecha y hora concretos. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0004-precondition-html" class=""><p>El usuario de la aplicación se ha identificado en la aplicación y desea solicitar una cita con un especialista</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0079">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0079--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede al formulario de solicitud de cita</p></div>
+</td>
+</tr>
+<tr id="STP-0080">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0080--html" class=""><p>El sistema muestra los días disponibles dependiendo del especialista seleccionado, así como las distintas horas</p></div>
+</td>
+</tr>
+<tr id="STP-0081">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0081--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     selecciona la fecha, especialista y hora deseadas</p></div>
+</td>
+</tr>
+<tr id="STP-0082">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0082--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     envia el formulario de solicitud de cita   </p></div>
+</td>
+</tr>
+<tr id="STP-0083">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0083--html" class=""><p>El sistema confirma la selección de cita y asigna a ese especialista una nueva citación</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0004-postcondition-html" class=""><p>Se le asigna esa cita al usuario y al especialista seleccionado</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Ver citas asignadas </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el especialista desee ver las citas que le han sido asignadas. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0005-precondition-html" class=""><p>El especialista se ha identificado en la aplicación y desea ver las citas que tiene asignadas</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="3">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0084">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0084--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a la zona de citas asignadas</p></div>
+</td>
+</tr>
+<tr id="STP-0085">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0085--html" class=""><p>El sistema muestra la vista de las citas asignadas</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0005-postcondition-html" class=""><p>El sistema muestra la vista de citas asignadas</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0006">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
+<th class="name_column" colspan="2">Ver lista de clientes, detalles, sus tratamientos y enviar gifs </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (21/11/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0006--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el especialista desee ver los datos de los clientes que ha tratado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0006-precondition-html" class=""><p>El especialista se ha identificado en la aplicación y desea ver la lista de clientes que ha tratado, así como sus detalles y gestionar los tratamientos</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="11">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0086">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0086--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a la zona de clientes tratados   </p></div>
+</td>
+</tr>
+<tr id="STP-0087">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0087--html" class=""><p>El sistema muestra la vista de los clientes tratados</p></div>
+</td>
+</tr>
+<tr id="STP-0090">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0090--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a los detalles de un cliente en específico</p></div>
+</td>
+</tr>
+<tr id="STP-0091">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0091--html" class=""><p>El sistema muestra los detalles del cliente seleccionado</p></div>
+</td>
+</tr>
+<tr id="STP-0092">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0092--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a un tratamiento en específico del cliente seleccionado</p></div>
+</td>
+</tr>
+<tr id="STP-0093">
+<th class="step_number">6</th>
+<td colspan="1">
+<div id="STP-0093--html" class=""><p>El sistema muestra los datos del tratamiento seleccionado </p></div>
+</td>
+</tr>
+<tr id="STP-0094">
+<th class="step_number">7</th>
+<td colspan="1">
+<div id="STP-0094--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede al formulario de subida de un nuevo gif explicativo</p></div>
+</td>
+</tr>
+<tr id="STP-0095">
+<th class="step_number">8</th>
+<td colspan="1">
+<div id="STP-0095--html" class=""><p>El sistema muestra el formulario de envío de gif</p></div>
+</td>
+</tr>
+<tr id="STP-0096">
+<th class="step_number">9</th>
+<td colspan="1">
+<div id="STP-0096--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     rellena el formulario y confirma la subida</p></div>
+</td>
+</tr>
+<tr id="STP-0097">
+<th class="step_number">10</th>
+<td colspan="1">
+<div id="STP-0097--html" class=""><p>El sistema valida los datos que han sido enviados en el formulario   </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0006-postcondition-html" class=""><p>El sistema muestra las vistas correspondientes a cada acción</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0040" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0017" class="section">6.3.1 Requisitos de información del sistema</h3>
 <div id="IRQ-0001">
@@ -2680,7 +3293,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <div id="GRF-0003" class="figure">
 <img class="figure_image" src=".\images\$primera_acta_IR2.jpg" width="70%%" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 11:
+<span class="figure_caption_label">Figura 14:
                  </span>
 <span id="GRF-0003-name-html" class="">Acta primera reunión</span>
 </p>
@@ -2688,7 +3301,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <div id="GRF-0015" class="figure">
 <img class="figure_image" src=".\images\$segunda_acta_IR2.jpg" width="70%%" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 12:
+<span class="figure_caption_label">Figura 15:
                  </span>
 <span id="GRF-0015-name-html" class="">Acta segunda reunión</span>
 </p>
@@ -2696,7 +3309,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <div id="GRF-0018" class="figure">
 <img class="figure_image" src=".\images\$tercera_acta_IR2.jpg" width="70%%" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 13:
+<span class="figure_caption_label">Figura 16:
                  </span>
 <span id="GRF-0018-name-html" class="">Acta tercera reunión</span>
 </p>
@@ -2708,7 +3321,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <div id="GRF-0011" class="figure">
 <img class="figure_image" src=".\images\$Factura tipo.jpeg" />
 <p class="figure_caption">
-<span class="figure_caption_label">Figura 14:
+<span class="figure_caption_label">Figura 17:
                  </span>
 <span id="GRF-0011-name-html" class=""><a href='#GLO-0095' class="rem_ref">Factura tipo</a></span>
 </p>
@@ -2731,9 +3344,6 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </div>
 <div id="GLO-0060" class="glo">
 <div id="GLO-0060-text-html" class=""><p><strong>TM</strong>: <a href='#GLO-0053' class="rem_ref">Terapia manual</a></p></div>
-</div>
-<div id="PRG-0128">
-<div id="PRG-0128-text-html" class=""><p>asdasdasdasd</p></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
