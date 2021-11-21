@@ -353,15 +353,11 @@ Avda. Reina Mercedes s/n   <br />
 <div id="PRG-0124-text-html" class=""><p><strong>Especialista:</strong> Esta clase representa a los especialistas de la clínica. Hereda de Trabajador y contiene el atributo enumerado especialidad.</p></div>
 </div>
 <div id="PRG-0125">
-<div id="PRG-0125-text-html" class=""><p><strong>Persona:</strong> Esta superclase representa las cualidades comunes de los distintos roles de usuario de la aplicación. Contiene los siguientes atributos: nombre, apellidos, correo, contraseña, dirección, teléfono y DNI.</p></div>
+<div id="PRG-0125-text-html" class=""><p><strong>Personal clínica:</strong> Esta clase representa al personal administrativo de la clínica. Hereda de Trabajador y contiene el atributo enumerado profesión</p></div>
 </div>
 <div id="PRG-0126">
-<div id="PRG-0126-text-html" class=""><p><strong>Persona:</strong> Esta superclase representa las cualidades comunes de los distintos roles de usuario de la aplicación. Contiene los siguientes atributos: nombre, apellidos, correo, contraseña, dirección, teléfono y DNI.</p></div>
+<div id="PRG-0126-text-html" class=""><p><strong>Cita:</strong> Esta clase representa las sesiones pasadas o futuras entre un cliente y un especialista. Contiene los siguientes atributos: fecha y hora, descripción del especialista y comentario para el cliente. Los estados que puede tomar esta clase vienen representados en el siguiente diagrama:</p></div>
 </div>
-<div id="PRG-0127">
-<div id="PRG-0127-text-html" class=""><p><strong>Persona:</strong> Esta superclase representa las cualidades comunes de los distintos roles de usuario de la aplicación. Contiene los siguientes atributos: nombre, apellidos, correo, contraseña, dirección, teléfono y DNI.</p></div>
-</div>
-<h2 id="SEC-0082" class="section">3.3 Diagramas de estado de las clases del sistema</h2>
 <div id="GRF-0021" class="figure">
 <img class="figure_image" src=".\images\$diagramaEstadoCitas.png" />
 <p class="figure_caption">
@@ -370,6 +366,24 @@ Avda. Reina Mercedes s/n   <br />
 <span id="GRF-0021-name-html" class="">Diagrama de estados de cita</span>
 </p>
 </div>
+<div id="PRG-0127">
+<div id="PRG-0127-text-html" class=""><p><strong>Factura:</strong> Esta clase representa a las facturas asociadas a cada cliente. Puede tener una o más citas asociadas. Contiene los siguientes atributos: precio y método de pago.</p></div>
+</div>
+<div id="PRG-0129">
+<div id="PRG-0129-text-html" class=""><p><strong>Factura:</strong> Esta clase representa a las facturas asociadas a cada cliente. Puede tener una o más citas asociadas. Contiene los siguientes atributos: precio y método de pago.</p></div>
+</div>
+<div id="PRG-0130">
+<div id="PRG-0130-text-html" class=""><p><strong>GIF:</strong> Esta clase representa los GIFs subidos al SGBD de la aplicación. Únicamente contiene el atributo URL del vídeo.</p></div>
+</div>
+<div id="PRG-0131">
+<div id="PRG-0131-text-html" class=""><p><strong>Nómina:</strong> Esta clase representa la información de las nóminas asociadas a cada trabajador. Contiene los siguientes atributos: salario, día de pago, descuentos del IRPF, líquido total y cotización adicional.</p></div>
+</div>
+<div id="PRG-0132">
+<div id="PRG-0132-text-html" class=""><p><strong>Producto:</strong> Esta clase representa los productos subidos al stock de la tienda online de la aplicación. Contiene los siguientes atributos: nombre, precio, descripción, stock, URL de la imagen asociada y el enumerado tipo de producto.</p></div>
+</div>
+<div id="PRG-0133">
+<div id="PRG-0133-text-html" class=""><p><strong>Pedido:</strong> Esta clase representa los pedidos realizados por los distintos clientes de la aplicación a través de la tienda online. Contiene los siguientes atributos: fecha, método de pago y dirección de envío. Los estados que puede tomar esta clase vienen representados en el siguiente diagrama:</p></div>
+</div>
 <div id="GRF-0022" class="figure">
 <img class="figure_image" src=".\images\$diagramaEstadoPedidos.png" />
 <p class="figure_caption">
@@ -377,6 +391,13 @@ Avda. Reina Mercedes s/n   <br />
                  </span>
 <span id="GRF-0022-name-html" class="">Diagrama de estados de pedido</span>
 </p>
+</div>
+<div id="PRG-0134">
+<div id="PRG-0134-text-html" class=""><p><strong>LíneaPedido:</strong> Esta clase representa la relación entre un producto y un pedido. Contiene los siguientes atributos: cantidad y precio total.   </p></div>
+</div>
+<h2 id="SEC-0082" class="section">3.3 Diagramas de estado de las clases del sistema</h2>
+<div id="PRG-0135">
+<div id="PRG-0135-text-html" class=""><p>Los diagramas de estado de las clases cita y pedido han sido adjuntados en el apartado anterior.</p></div>
 </div>
 <h1 id="SEC-0066" class="section">4 Modelo de casos de uso del sistema</h1>
 <h2 id="SEC-0074" class="section">4.1 Diagramas de secuencia del sistema</h2>
