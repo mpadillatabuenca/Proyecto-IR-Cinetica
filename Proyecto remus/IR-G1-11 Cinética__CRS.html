@@ -2102,7 +2102,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </thead>
 <tr>
 <th>Versión</th>
-<td colspan="2">1.0 (21/11/2021)
+<td colspan="2">1.0 (26/12/2021)
 </td>
 </tr>
 <tr>
@@ -2117,26 +2117,38 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </td>
 </tr>
 <tr>
-<th rowspan="4">Secuencia normal</th>
+<th rowspan="6">Secuencia normal</th>
 <th class="step_number_column">Paso</th>
 <th class="step_action_column">Acción</th>
 </tr>
 <tr id="STP-0067">
 <th class="step_number">1</th>
 <td colspan="1">
-<div id="STP-0067--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede al formulario de modificación de perfil</p></div>
+<div id="STP-0067--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede a la modificación de perfil</p></div>
+</td>
+</tr>
+<tr id="STP-0123">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0123--html" class=""><p>El sistema  muestra la información actual del perfil </p></div>
 </td>
 </tr>
 <tr id="STP-0068">
-<th class="step_number">2</th>
+<th class="step_number">3</th>
 <td colspan="1">
-<div id="STP-0068--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     envía el formulario de modificación de perfil con los cambios deseados   </p></div>
+<div id="STP-0068--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     modifica los campos que desea y envia la solicitud   </p></div>
 </td>
 </tr>
 <tr id="STP-0069">
-<th class="step_number">3</th>
+<th class="step_number">4</th>
 <td colspan="1">
 <div id="STP-0069--html" class=""><p>El sistema valida los cambios en el perfil y modifica los cambios del usuario   </p></div>
+</td>
+</tr>
+<tr id="STP-0124">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0124--html" class=""><p>El sistema redirige al usuario a la página del perfil</p></div>
 </td>
 </tr>
 <tr>
@@ -2151,7 +2163,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <th class="exception_action_column">Acción</th>
 </tr>
 <tr id="STX-0004">
-<th class="step_number">3</th>
+<th class="step_number">4</th>
 <td colspan="1"><div id="STX-0004--html" class=""><p>Si el usuario introduce unas credenciales erróneas,  el sistema le notificará del error, a continuación este caso de uso queda sin efecto. </p></div>
 </td>
 </tr>
@@ -2230,7 +2242,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </thead>
 <tr>
 <th>Versión</th>
-<td colspan="2">1.0 (21/11/2021)
+<td colspan="2">1.0 (26/12/2021)
 </td>
 </tr>
 <tr>
@@ -2245,7 +2257,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </td>
 </tr>
 <tr>
-<th rowspan="6">Secuencia normal</th>
+<th rowspan="9">Secuencia normal</th>
 <th class="step_number_column">Paso</th>
 <th class="step_action_column">Acción</th>
 </tr>
@@ -2264,19 +2276,37 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr id="STP-0075">
 <th class="step_number">3</th>
 <td colspan="1">
-<div id="STP-0075--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     añade los productos que desee a la cesta</p></div>
+<div id="STP-0075--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     añade un producto a la cesta</p></div>
 </td>
 </tr>
-<tr id="STP-0076">
+<tr id="STP-0126">
 <th class="step_number">4</th>
 <td colspan="1">
-<div id="STP-0076--html" class=""><p>El sistema procede al pago de los productos, introduciendo dirección en caso de ser productos físicos. Además, introduce el método de pago</p></div>
+<div id="STP-0126--html" class=""><p>Si el usuario quiere seguir comprando,  el actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     sigue añadiendo productos a la cesta</p></div>
 </td>
 </tr>
-<tr id="STP-0077">
+<tr id="STP-0128">
 <th class="step_number">5</th>
 <td colspan="1">
-<div id="STP-0077--html" class=""><p>El sistema valida el método de pago introducido por el cliente   </p></div>
+<div id="STP-0128--html" class=""><p>Si el usuario ya ha terminado de seleccionar productos,  el actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede a la cesta y confirma la compra</p></div>
+</td>
+</tr>
+<tr id="STP-0131">
+<th class="step_number">6</th>
+<td colspan="1">
+<div id="STP-0131--html" class=""><p>El sistema pide los datos de pago y además, si es un producto físico, pide que indique la direccion, o que la confirme en caso que ya este almacenada</p></div>
+</td>
+</tr>
+<tr id="STP-0132">
+<th class="step_number">7</th>
+<td colspan="1">
+<div id="STP-0132--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     intruce los datos solicitados </p></div>
+</td>
+</tr>
+<tr id="STP-0134">
+<th class="step_number">8</th>
+<td colspan="1">
+<div id="STP-0134--html" class=""><p>El sistema valida y confirma la compra</p></div>
 </td>
 </tr>
 <tr>
@@ -2290,9 +2320,9 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <th class="step_number_column">Paso</th>
 <th class="exception_action_column">Acción</th>
 </tr>
-<tr id="STX-0005">
-<th class="step_number">5</th>
-<td colspan="1"><div id="STX-0005--html" class=""><p>Si datos de pago incorrectos,  el sistema notifica al usuario del error, a continuación este caso de uso queda sin efecto. </p></div>
+<tr id="STX-0013">
+<th class="step_number">8</th>
+<td colspan="1"><div id="STX-0013--html" class=""><p>Si los datos de pago son  incorrectos,  el sistema notifica al usuario del error, a continuación este caso de uso queda sin efecto (<em>vuelve a pedir la información de pago</em>). </p></div>
 </td>
 </tr>
 <tr>
@@ -2314,7 +2344,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </thead>
 <tr>
 <th>Versión</th>
-<td colspan="2">1.0 (21/11/2021)
+<td colspan="2">1.0 (26/12/2021)
 </td>
 </tr>
 <tr>
@@ -2329,44 +2359,63 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </td>
 </tr>
 <tr>
-<th rowspan="6">Secuencia normal</th>
+<th rowspan="9">Secuencia normal</th>
 <th class="step_number_column">Paso</th>
 <th class="step_action_column">Acción</th>
 </tr>
 <tr id="STP-0079">
 <th class="step_number">1</th>
 <td colspan="1">
-<div id="STP-0079--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede al formulario de solicitud de cita</p></div>
+<div id="STP-0079--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     accede a la solicitud de cita</p></div>
 </td>
 </tr>
 <tr id="STP-0080">
 <th class="step_number">2</th>
 <td colspan="1">
-<div id="STP-0080--html" class=""><p>El sistema muestra los días disponibles dependiendo del especialista seleccionado, así como las distintas horas</p></div>
+<div id="STP-0080--html" class=""><p>El sistema muestra los días disponibles</p></div>
 </td>
 </tr>
 <tr id="STP-0081">
 <th class="step_number">3</th>
 <td colspan="1">
-<div id="STP-0081--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     selecciona la fecha, especialista y hora deseadas</p></div>
+<div id="STP-0081--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     selecciona la fecha deseada</p></div>
 </td>
 </tr>
-<tr id="STP-0082">
+<tr id="STP-0135">
 <th class="step_number">4</th>
 <td colspan="1">
-<div id="STP-0082--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     envia el formulario de solicitud de cita   </p></div>
+<div id="STP-0135--html" class=""><p>El sistema muestra todas las horas disponibles para esa fecha</p></div>
 </td>
 </tr>
-<tr id="STP-0083">
+<tr id="STP-0136">
 <th class="step_number">5</th>
 <td colspan="1">
-<div id="STP-0083--html" class=""><p>El sistema confirma la selección de cita y asigna a ese especialista una nueva citación</p></div>
+<div id="STP-0136--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     selecciona la hora deseada</p></div>
+</td>
+</tr>
+<tr id="STP-0137">
+<th class="step_number">6</th>
+<td colspan="1">
+<div id="STP-0137--html" class=""><p>El sistema muestra los especialistas disponibles en dicha fecha y hora</p></div>
+</td>
+</tr>
+<tr id="STP-0138">
+<th class="step_number">7</th>
+<td colspan="1">
+<div id="STP-0138--html" class=""><p>El actor     <a href="#ACT-0001">Cliente (ACT-0001)</a>     selecciona el especialista deseado y realiza la petición de cita</p></div>
+</td>
+</tr>
+<tr id="STP-0139">
+<th class="step_number">8</th>
+<td colspan="1">
+<div id="STP-0139--html" class=""><p>El sistema almacena la petición</p></div>
 </td>
 </tr>
 <tr>
 <th>Postcondición</th>
 <td colspan="2">
-<div id="UC-0004-postcondition-html" class=""><p>Se le asigna esa cita al usuario y al especialista seleccionado</p></div>
+<div id="UC-0004-postcondition-html" class=""><p>Se le asigna esa cita al usuario y al especialista seleccionado.   <br />
+Un día antes de dicha cita se le genera una notificicación mediante Google Calendar.</p></div>
 </td>
 </tr>
 <tr>
@@ -2444,7 +2493,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </thead>
 <tr>
 <th>Versión</th>
-<td colspan="2">1.0 (21/11/2021)
+<td colspan="2">1.0 (26/12/2021)
 </td>
 </tr>
 <tr>
@@ -2466,13 +2515,13 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr id="STP-0086">
 <th class="step_number">1</th>
 <td colspan="1">
-<div id="STP-0086--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a la zona de clientes tratados   </p></div>
+<div id="STP-0086--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a la zona de clientes    </p></div>
 </td>
 </tr>
 <tr id="STP-0087">
 <th class="step_number">2</th>
 <td colspan="1">
-<div id="STP-0087--html" class=""><p>El sistema muestra la vista de los clientes tratados</p></div>
+<div id="STP-0087--html" class=""><p>El sistema muestra la vista de los clientes </p></div>
 </td>
 </tr>
 <tr id="STP-0090">
@@ -2502,25 +2551,25 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr id="STP-0094">
 <th class="step_number">7</th>
 <td colspan="1">
-<div id="STP-0094--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede al formulario de subida de un nuevo gif explicativo</p></div>
+<div id="STP-0094--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     accede a la asignación de gifs</p></div>
 </td>
 </tr>
 <tr id="STP-0095">
 <th class="step_number">8</th>
 <td colspan="1">
-<div id="STP-0095--html" class=""><p>El sistema muestra el formulario de envío de gif</p></div>
+<div id="STP-0095--html" class=""><p>El sistema muestra los gifs existentes </p></div>
 </td>
 </tr>
 <tr id="STP-0096">
 <th class="step_number">9</th>
 <td colspan="1">
-<div id="STP-0096--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     rellena el formulario y confirma la subida</p></div>
+<div id="STP-0096--html" class=""><p>El actor     <a href="#ACT-0002">Especialista (ACT-0002)</a>     selecciona los gifs que desea asignar y confirma la selección</p></div>
 </td>
 </tr>
 <tr id="STP-0097">
 <th class="step_number">10</th>
 <td colspan="1">
-<div id="STP-0097--html" class=""><p>El sistema valida los datos que han sido enviados en el formulario   </p></div>
+<div id="STP-0097--html" class=""><p>El sistema almacena la asignación y muestra el perfil del cliente en cuestión   </p></div>
 </td>
 </tr>
 <tr>
@@ -2563,7 +2612,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </td>
 </tr>
 <tr>
-<th rowspan="8">Secuencia normal</th>
+<th rowspan="7">Secuencia normal</th>
 <th class="step_number_column">Paso</th>
 <th class="step_action_column">Acción</th>
 </tr>
@@ -2600,13 +2649,8 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr id="STP-0103">
 <th class="step_number">6</th>
 <td colspan="1">
-<div id="STP-0103--html" class=""><p>El sistema comprueba los valores indicados y los verifica</p></div>
-</td>
-</tr>
-<tr id="STP-0104">
-<th class="step_number">7</th>
-<td colspan="1">
-<div id="STP-0104--html" class=""><p>El sistema redirecciona al usuario y muestra los nuevos datos</p></div>
+<div id="STP-0103--html" class=""><p>El sistema comprueba los valores indicados y los verifica.   <br />
+ El sistema redirecciona al usuario y muestra los nuevos datos</p></div>
 </td>
 </tr>
 <tr>
@@ -2644,7 +2688,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </thead>
 <tr>
 <th>Versión</th>
-<td colspan="2">1.0 (21/11/2021)
+<td colspan="2">1.0 (26/12/2021)
 </td>
 </tr>
 <tr>
@@ -2659,7 +2703,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </td>
 </tr>
 <tr>
-<th rowspan="5">Secuencia normal</th>
+<th rowspan="7">Secuencia normal</th>
 <th class="step_number_column">Paso</th>
 <th class="step_action_column">Acción</th>
 </tr>
@@ -2678,19 +2722,32 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr id="STP-0107">
 <th class="step_number">3</th>
 <td colspan="1">
-<div id="STP-0107--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     selecciona la cancelación de una cita</p></div>
+<div id="STP-0107--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     selecciona un día</p></div>
 </td>
 </tr>
 <tr id="STP-0108">
 <th class="step_number">4</th>
 <td colspan="1">
-<div id="STP-0108--html" class=""><p>El sistema cancela la cita y muestra la nueva vista con los datos actualizados</p></div>
+<div id="STP-0108--html" class=""><p>El sistema muestra las citas asociadas a ese día</p></div>
+</td>
+</tr>
+<tr id="STP-0140">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0140--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     cancela una de las citas mostradas</p></div>
+</td>
+</tr>
+<tr id="STP-0141">
+<th class="step_number">6</th>
+<td colspan="1">
+<div id="STP-0141--html" class=""><p>El sistema confirma la cancelación de la cita y muestra la vista de gestión de citas con los detalles actualizados</p></div>
 </td>
 </tr>
 <tr>
 <th>Postcondición</th>
 <td colspan="2">
-<div id="UC-0008-postcondition-html" class=""><p>El sistema muestra las citas en caso de solo querer visualizarlas, y las actualiza en caso de haber cancelado alguna</p></div>
+<div id="UC-0008-postcondition-html" class=""><p>El sistema muestra las citas en caso de solo querer visualizarlas, y las actualiza en caso de haber cancelado alguna.   <br />
+En caso de cancelación de una cita notifica tanto al cliente como al especialista.</p></div>
 </td>
 </tr>
 <tr>
@@ -2707,27 +2764,27 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr>
 <th>
 <img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
-<th class="name_column" colspan="2">Gestionar facturas </th>
+<th class="name_column" colspan="2">Creación de facturas </th>
 </tr>
 </thead>
 <tr>
 <th>Versión</th>
-<td colspan="2">1.0 (21/11/2021)
+<td colspan="2">1.0 (26/12/2021)
 </td>
 </tr>
 <tr>
 <th>Descripción</th>
-<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la persona encargada de la recepción decide gestionar las facturas de la aplicación. </p></div>
+<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la persona encargada de la recepción decide crear una factura. </p></div>
 </td>
 </tr>
 <tr>
 <th>Precondición</th>
 <td colspan="2">
-<div id="UC-0009-precondition-html" class=""><p>La recepción se ha identificado en la aplicación y desea gestionar las facturas</p></div>
+<div id="UC-0009-precondition-html" class=""><p>La recepción se ha identificado en la aplicación y desea crear una factura</p></div>
 </td>
 </tr>
 <tr>
-<th rowspan="3">Secuencia normal</th>
+<th rowspan="7">Secuencia normal</th>
 <th class="step_number_column">Paso</th>
 <th class="step_action_column">Acción</th>
 </tr>
@@ -2741,6 +2798,30 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <th class="step_number">2</th>
 <td colspan="1">
 <div id="STP-0110--html" class=""><p>El sistema muestra las facturas almacendas en la aplicación</p></div>
+</td>
+</tr>
+<tr id="STP-0142">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0142--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     accede a la creación de facturas</p></div>
+</td>
+</tr>
+<tr id="STP-0143">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0143--html" class=""><p>El sistema muestra la vista de la creación de facturas</p></div>
+</td>
+</tr>
+<tr id="STP-0144">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0144--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     introduce los datos necesarios para la factura</p></div>
+</td>
+</tr>
+<tr id="STP-0145">
+<th class="step_number">6</th>
+<td colspan="1">
+<div id="STP-0145--html" class=""><p>El sistema almacena la información</p></div>
 </td>
 </tr>
 <tr>
@@ -2915,6 +2996,74 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </tr>
 </table>
 </div>
+<div id="UC-0012">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0012</th>
+<th class="name_column" colspan="2">Impresión de facturas </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (26/12/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0012--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando la persona encargada de la recepción decide imprimir una factura. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0012-precondition-html" class=""><p>La recepción se ha identificado en la aplicación y desea imprimir una factura</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="5">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0152">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0152--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     accede a la zona de gestión de facturas</p></div>
+</td>
+</tr>
+<tr id="STP-0153">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0153--html" class=""><p>El sistema muestra las facturas almacendas en la aplicación</p></div>
+</td>
+</tr>
+<tr id="STP-0154">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0154--html" class=""><p>El actor     <a href="#ACT-0004">Recepción (ACT-0004)</a>     selecciona la opción de imprimir la factura</p></div>
+</td>
+</tr>
+<tr id="STP-0155">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0155--html" class=""><p>El sistema genera el archivo</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0012-postcondition-html" class=""><p>El sistema muestra las facturas almacenadas en la aplicación </p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0012-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <h2 id="SEC-0040" class="section">6.3 Requisitos funcionales del sistema</h2>
 <h3 id="SEC-0017" class="section">6.3.1 Requisitos de información del sistema</h3>
 <div id="IRQ-0001">
@@ -2964,6 +3113,12 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 </li>
 <li id="DAT-0008">
 <span id="DAT-0008-description-html" class="">Resumen de historial clínico (<em>Solo visible y editable por los trabajadores de la clínica</em>)</span>
+</li>
+<li id="DAT-0158">
+<span id="DAT-0158-description-html" class="">Url perfil</span>
+</li>
+<li id="DAT-0163">
+<span id="DAT-0163-description-html" class="">sesiones pagadas</span>
 </li>
 </ul>
 </td>
@@ -3031,6 +3186,9 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <li id="DAT-0025">
 <span id="DAT-0025-description-html" class="">Especialidad (<em>Uroginecólogo, fisioterapeuta, o entrenador</em>)</span>
 </li>
+<li id="DAT-0159">
+<span id="DAT-0159-description-html" class="">Url perfil</span>
+</li>
 </ul>
 </td>
 </tr>
@@ -3097,6 +3255,9 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <li id="DAT-0035">
 <span id="DAT-0035-description-html" class="">Profesión (<em>Propietario, gestoría, limpieza o administración</em>)</span>
 </li>
+<li id="DAT-0160">
+<span id="DAT-0160-description-html" class="">Url perfil</span>
+</li>
 </ul>
 </td>
 </tr>
@@ -3151,6 +3312,12 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <li id="DAT-0030">
 <span id="DAT-0030-description-html" class="">Comentario para el cliente</span>
 </li>
+<li id="DAT-0161">
+<span id="DAT-0161-description-html" class="">motivo de cancelación</span>
+</li>
+<li id="DAT-0162">
+<span id="DAT-0162-description-html" class="">motivo de cita</span>
+</li>
 </ul>
 </td>
 </tr>
@@ -3197,10 +3364,13 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <span id="DAT-0037-description-html" class="">Cita(s) asociada(s)</span>
 </li>
 <li id="DAT-0038">
-<span id="DAT-0038-description-html" class="">Precio total</span>
+<span id="DAT-0038-description-html" class="">Precio de la sesión</span>
 </li>
 <li id="DAT-0039">
-<span id="DAT-0039-description-html" class="">Método de pago (<em>solo visible por este</em>)</span>
+<span id="DAT-0039-description-html" class="">Método de pago</span>
+</li>
+<li id="DAT-0164">
+<span id="DAT-0164-description-html" class="">Fecha de pago</span>
 </li>
 </ul>
 </td>
@@ -3243,6 +3413,9 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <ul class="specific_data">
 <li id="DAT-0041">
 <span id="DAT-0041-description-html" class="">URL</span>
+</li>
+<li id="DAT-0165">
+<span id="DAT-0165-description-html" class="">Nombre</span>
 </li>
 </ul>
 </td>
@@ -3669,7 +3842,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="FRQ-0006-description-html" class=""><p>El sistema deberá permitir al propietario ejercer como especialista.</p></div>
+<div id="FRQ-0006-description-html" class=""><p>El sistema deberá permitir al propietario ejercer como especialista y recepcionista.</p></div>
 </td>
 </tr>
 <tr>
@@ -3699,7 +3872,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="NFR-0004-description-html" class=""><p>El sistema deberá disponer de métodos alternativos de almacenamiento de datos para evitar la pérdida de estos en caso de fallo del servidor.</p></div>
+<div id="NFR-0004-description-html" class=""><p>El sistema deberá disponer de una copia de seguridad externa para evitar la pérdida de estos en caso de fallo del servidor.</p></div>
 </td>
 </tr>
 <tr>
@@ -3764,7 +3937,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="NFR-0002-description-html" class=""><p>El sistema deberá disponer de interfaces sencillas e intuitivas que no supongan un detrimento al uso de esta.</p></div>
+<div id="NFR-0002-description-html" class=""><p>El sistema deberá  cumplir con el nivel AA de accesibilidad según indicado en las WCAG de acuerdo a la versión 2.1.</p></div>
 </td>
 </tr>
 <tr>
@@ -3801,7 +3974,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="NFR-0003-description-html" class=""><p>El sistema deberá tener tiempos de respuesta cortos para no afectar de forma negativa al uso.</p></div>
+<div id="NFR-0003-description-html" class=""><p>El sistema deberá tener tiempos de respuesta inferioresa 10 segundos.</p></div>
 </td>
 </tr>
 <tr>
@@ -3838,7 +4011,7 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <tr>
 <th>Descripción</th>
 <td colspan="1">
-<div id="FRQ-0007-description-html" class=""><p>El sistema deberá preservar la privacidad de los clientes almacenando de forma segura sus datos.</p></div>
+<div id="FRQ-0007-description-html" class=""><p>El sistema deberá preservar la privacidad de los clientes almacenando de forma segura sus datos encriptándolos con el algoritmo de hashing bcypt.</p></div>
 </td>
 </tr>
 <tr>
@@ -3858,8 +4031,36 @@ El sistema comprobará la petición de compra, empezando por los datos de pago, si
 <div id="PRG-0136-text-html" class=""><p>El sistema deberá ser compatible con la última versión de Google Chrome y versiones de Windows a partir de Windows 7.</p></div>
 </div>
 <h2 id="SEC-0031" class="section">6.6 Requisitos de integración del sistema</h2>
+<div id="NFR-0005">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0005</th>
+<th class="name_column" colspan="1">Integración con Google Calendar</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (26/12/2021)
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0005-description-html" class=""><p>El sistema deberá integrar Google Calendar en la gestión de citas.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
 <div id="PRG-0114">
-<div id="PRG-0114-text-html" class=""><p>No aplica, comentamos con el cliente la posibilidad de integrar la futura aplicación con la aplicación actual de firmas, pero no le pareció una acción necesaria si el nuevo sistema es capaz de suplir esa funcionalidad también.</p></div>
+<div id="PRG-0114-text-html" class=""><p>Comentamos con el cliente la posibilidad de integrar la futura aplicación con la aplicación actual de firmas, pero no le pareció una acción necesaria si el nuevo sistema es capaz de suplir esa funcionalidad también.</p></div>
 </div>
 <h2 id="SEC-0060" class="section">6.7 Información sobre trazabilidad</h2>
 <div id="GRF-0026" class="figure">
