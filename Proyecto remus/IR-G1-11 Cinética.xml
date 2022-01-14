@@ -1043,7 +1043,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** usuario,<br/>**quiero** accediendo a través de mi perfil, solicitar una cita con un especialista en un día y hora concretos,<br/>**para** poder ser tratado en un horario cómodo.<br/></rem:text>
+<rem:text>**Como** usuario,<br/>**quiero** poder solicitar una cita con un especialista en un día y hora concretos,<br/>**para** poder ser tratado en un horario cómodo.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0064">
 <rem:name>[HU-0002] Visualizar contenido de miembros</rem:name>
@@ -1074,7 +1074,7 @@
 <rem:text>**Como** usuario,<br/>**quiero** poder visualizar mi historial médico (resumido) en la aplicación, junto con la lista de sesiones a las que he asistido,<br/>**para** saber el avance del tratamiento.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0066">
-<rem:name>[HU-0004] Gestión de citas</rem:name>
+<rem:name>[HU-0004] Cancelación de citas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1085,7 +1085,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** especialista,<br/>**quiero** poder cancelar o aplazar citas, notificando al cliente del cambio,<br/>**para** poder adaptar los horarios en caso de incidencia.<br/></rem:text>
+<rem:text>**Como** recepcionista,<br/>**quiero** poder cancelar citas, notificando al cliente del cambio,<br/>**para** poder adaptar los horarios en caso de incidencia.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0067">
 <rem:name>[HU-0005] Notificado de citas</rem:name>
@@ -1113,7 +1113,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** especialista,<br/>**quiero** poder ver un listado de clientes que he tratado, así como los tratamientos recomendados,<br/>**para** llevar un seguimiento del trabajo realizado.<br/></rem:text>
+<rem:text>**Como** especialista,<br/>**quiero** poder ver un listado de clientes de la clínica, así como el historial clínico y los tratamientos recomendados,<br/>**para** llevar un seguimiento del trabajo realizado.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0069">
 <rem:name>[HU-0007] Subir contenido a las zonas de usuarios</rem:name>
@@ -1141,21 +1141,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** dueño de la clínica,<br/>**quiero** poder gestionar facturas, almacenando, eliminando y editando pagos de clientes realizados,<br/>**para** facilitar la contabilidad.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0071">
-<rem:name>[HU-0009] Consultar facturas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>22</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** dueño de la clínica,<br/>**quiero** poder realizar consultas al sistema de facturas utilizando filtrados y ordenamientos,<br/>**para** facilitar el trabajo a la hora de gestionar facturas.<br/></rem:text>
+<rem:text>**Como** recepcionista,<br/>**quiero** poder generar facturas, almacenando, eliminando y editando pagos de clientes realizados,<br/>**para** facilitar la contabilidad.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0072">
 <rem:name>[HU-0010] Gestionar contratos</rem:name>
@@ -1172,7 +1158,7 @@
 <rem:text>**Como** dueño de la clínica,<br/>**quiero** llevar un control de los empleados, gestionando sus contratos, modificando sus salarios, nóminas y pudiendo asignar horas, además de registrar las horas extra,<br/>**para** mantener un control de los empleados.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0074">
-<rem:name>[HU-0011] Registrar a la venta producto o programa</rem:name>
+<rem:name>[HU-0011] Registrar la venta producto o programa</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1183,21 +1169,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** gestor de ventas,<br/>**quiero** poder gestionar los productos disponibles en la tienda on-line, modificando su stock, precio y características, además de poder aplicar promociones,<br/>**para** mantener la tienda on-line actualizada.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem oid="GLO-0075">
-<rem:name>[HU-0012] Gestionar las ventas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>22</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>**Como** gestor de ventas,<br/>**quiero** ver un historial de ventas, junto con productos más vendidos y un resumen de estadísticas,<br/>**para** llevar contabilidad de las ventas.<br/></rem:text>
+<rem:text>**Como** gestor de ventas,<br/>**quiero** poder gestionar los productos disponibles en la tienda on-line, modificando su stock, precio y características<br/>**para** mantener la tienda on-line actualizada.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0076">
 <rem:name>[HU-0013] Añadir venta física</rem:name>
@@ -3222,7 +3194,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>El cliente solo puede ver comentarios de su historial clínico, no la información completa.</rem:description>
+<rem:description>El cliente solo puede ver comentarios de su historial clínico, no la información completa</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid="CRQ-0003">
@@ -3241,7 +3213,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>El cliente solo podrá cancelar sus citas pendientes con un mínimo de 24h de antelación. Esto lo realiará a través de la recepción.</rem:description>
+<rem:description>El cliente solo podrá cancelar sus citas pendientes sin costo adicional con un mínimo de 24h de antelación. Esto lo realizará a través de la recepción</rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section oid="SEC-0019">
@@ -3276,60 +3248,6 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:description>requerir la dirección de un pedido solo si en este hay al menos un producto físico</rem:description>
 </rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0002">
-<rem:name>Modificación perfil</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir la modificación de datos personales a los clientes</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0003">
-<rem:name>Gestión de facturas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir la generación y gestión de facturas únicamente a la recepción.</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0004">
-<rem:name>Cancelación de citas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir la cancelación de citas únicamente a la recepción</rem:description>
-</rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0005">
 <rem:name>Modificación de historial clínico</rem:name>
 <rem:version>
@@ -3346,7 +3264,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir la modificación de comentarios y descripciones de citas pasadas a los especialistas asociados a estas.</rem:description>
+<rem:description>permitir la modificación de comentarios y descripciones de citas pasadas a los especialistas asociados a estas</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement oid="FRQ-0006">
 <rem:name>Propietario licenciado</rem:name>
@@ -3796,6 +3714,20 @@
 <rem:comments>[width=70%]</rem:comments>
 <rem:fileName><![CDATA[.\images\$tercera_acta_IR2.jpg]]></rem:fileName>
 </rem:graphicFile>
+<rem:graphicFile oid="GRF-0028">
+<rem:name>Acta cuarta reunión</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$cuarta_acta_IR2.jpg]]></rem:fileName>
+</rem:graphicFile>
 </rem:appendix>
 <rem:appendix oid="SEC-0028">
 <rem:name>Documentación relevante</rem:name>
@@ -3838,6 +3770,34 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 <rem:fileName><![CDATA[.\images\$Factura tipo.jpeg]]></rem:fileName>
+</rem:graphicFile>
+<rem:glossaryItem oid="GLO-0137">
+<rem:name>Foto con el cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Selfie tomada en la última reunión que tuvimos con el cliente, de forma presencial.</rem:text>
+</rem:glossaryItem>
+<rem:graphicFile oid="GRF-0029">
+<rem:name><rem:ref oid="GLO-0137">Foto con el cliente</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$foto_con_el_cliente.jpeg]]></rem:fileName>
 </rem:graphicFile>
 </rem:appendix>
 <rem:appendix oid="SEC-0038">
@@ -4778,8 +4738,8 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>Date</rem:name>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Real</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4789,8 +4749,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0003">
@@ -4823,21 +4783,6 @@
 <rem:description>Alphanumeric strings</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
 <rem:name>Time</rem:name>
 <rem:version>
@@ -4851,6 +4796,21 @@
 </rem:version>
 <rem:comments>Predefined OCL type (non-standard)</rem:comments>
 <rem:description>Hour:minutes:seconds</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0002">
@@ -4870,23 +4830,23 @@
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
@@ -4894,14 +4854,17 @@
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -4909,9 +4872,12 @@
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
-</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
@@ -4924,10 +4890,10 @@
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -4936,40 +4902,10 @@
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -4978,16 +4914,10 @@
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -4996,16 +4926,16 @@
 <![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
@@ -5014,38 +4944,71 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
 <rem:name>Prioridad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
@@ -5056,14 +5019,11 @@
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
@@ -5074,41 +5034,41 @@
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
