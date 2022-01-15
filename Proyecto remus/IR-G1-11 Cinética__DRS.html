@@ -27,8 +27,8 @@
 <img alt="Universidad de Sevilla" src="https://cdn.jsdelivr.net/gh/amador-duran-toro/rem/assets/images/logo_us.gif" />
 </div>
 <div id="document_name">Documento de Análisis del Sistema</div>
-<div id="document_version">Versión 1.0</div>
-<div id="document_date">Fecha 21/11/2021</div>
+<div id="document_version">Versión 2.0</div>
+<div id="document_date">Fecha 15/01/2022</div>
 <div id="document_prepared_for">Preparado para:<p>
 <a href="#ORG-0001">Fisioterapia y entrenamiento Tomares. Clínica Cinética.</a>
 </p>
@@ -499,8 +499,93 @@ Avda. Reina Mercedes s/n   <br />
 </p>
 </div>
 <h2 id="SEC-0075" class="section">4.2 Descripción de los diagramas de secuencia del sistema</h2>
-<div id="PRG-0149">
-<div id="PRG-0149-text-html" class=""><p>Hemos estimado que los diagramas son lo suficientemente simples como para no requerir descripción adicional.</p></div>
+<div id="GLO-0149" class="glo">
+<div id="GLO-0149-text-html" class=""><p><strong>Diagrama de secuencia [UC-0001] ver citas asignadas</strong>: El especialista accede a la zona de citas asignadas, y la presentación a través de la lógica de negocio solicita a la persistencia estas citas.   <br />
+La presentación una vez tiene los datos cargados muestra los datos al especialista.</p></div>
+</div>
+<div id="GLO-0150" class="glo">
+<div id="GLO-0150-text-html" class=""><p><strong>Diagrama de secuencia [UC-0002] modificación de perfil</strong>: Una vez logeado el usuario accede al formulario de modificación de perfil.   <br />
+La presentación a través de la lógica de negocio le solicita a la persistencia los datos del perfil del usuario.   <br />
+Una vez obtenido le muestra el formulario rellenado con sus propios datos.   <br />
+El usuario envía el formulario rellenado.   <br />
+En la capa de presentación se validan los datos y en caso de error muestra los errores al usuario.   <br />
+Una vez que se envían datos correctos se envían a la capa de persistencia y el usuario ve sus datos modificados.   </p></div>
+</div>
+<div id="GLO-0151" class="glo">
+<div id="GLO-0151-text-html" class=""><p><strong>Diagrama de secuencia [UC-0003] ver tratamiento y gifs</strong>: El usuario accede al tratamiento que desea solicitar y la capa de presentación a  través de la lógica de negocio solicita  a la persistencia los datos de ese tratamiento.   <br />
+La presentación una vez tiene los datos cargados muestra los datos al usuario.</p></div>
+</div>
+<div id="GLO-0152" class="glo">
+<div id="GLO-0152-text-html" class=""><p><strong>Diagrama de secuencia [UC-0004] realizar compras</strong>: Un cliente autenticado accede a la zona de la tienda.   <br />
+La presentación solicita a través de la lógica de negocio los datos de la tienda a la persistencia.   <br />
+La presentación le muestra la vista de la tienda con los productos cargados.   <br />
+Mientras el cliente añada productos a la cesta la presentación solicita a la lógica de negocio que actualice ese carrito y le muestra una vez que recibe los datos la vista con su carrito actualizado.   <br />
+Cuando el cliente confirma la lista de la compra la presentación le solicita a la lógica de negocio la vista de solicitud de pago.   <br />
+La presentación le devuelve al usuario el formulario.   <br />
+Si hay datos erróneos en el formulario la presentación le muestra los errores al usuario.   <br />
+Si el usuario envía datos correctos la presentación a través de la lógica de negocio solicita a la persistencia grabar los datos del pedido.</p></div>
+</div>
+<div id="GLO-0153" class="glo">
+<div id="GLO-0153-text-html" class=""><p><strong>Diagrama de secuencia [UC-0005] solicitar cita</strong>: Cuando un usuario autenticado accede a la solicitud de cita la capa de presentación a través de la lógica de negocio solicita a la persistencia los datos de disponibilidad de cita.   <br />
+Una vez la lógica de negocio carga estos datos en la presentación le muestra el formulario de petición de cita.   <br />
+Cuando el usuario selecciona una fecha deseada la presentación solicita a la lógica de negocio las horas disponibles y la presentación le muestra al usuario las horas disponibles ese día.   <br />
+El usuario selecciona la hora deseada y la presentación le pide a la lógica de negocio las horas que estén disponibles, por tanto, la presentación muestra al usuario los especialistas disponibles en esa fecha y hora deseadas.   <br />
+El usuario selecciona al especialista y graba la petición, por lo que la presentación a través de la lógica de negocio le pide a la persistencia que almacene la cita.</p></div>
+</div>
+<div id="GLO-0154" class="glo">
+<div id="GLO-0154-text-html" class=""><p><strong>Diagrama de secuencia [UC-0006] ver lista de clientes etc</strong>: El especialista accede a la zona de clientes y la presentación a través de la lógica de negocio solicita los datos de cliente, una vez recibe estos datos le muestra la vista de datos de cliente al especialista.   <br />
+El especialista accede a los datos de un cliente en específico, la presentación solicita esos datos a la lógica de negocio y se los muestra al especialista.   <br />
+El especialista accede al tratamiento de un cliente en concreto, la presentación solicita esos datos a la lógica de negocio y se los muestra al especialista.   <br />
+El especialista accede al formulario de asignación de gifs y la capa de presentación solicita a la lógica de negocia el formulario de gifs y la presentación le muestra el formulario al especialista.   <br />
+Una vez que el especialista rellena el formulario lo envía y la presentación a través de la lógica de negocio solicita grabar la asociación del gif.</p></div>
+</div>
+<div id="GLO-0155" class="glo">
+<div id="GLO-0155-text-html" class=""><p><strong>Diagrama de secuencia [UC-0007] gestionar tienda</strong>: El encargado de la tienda accede a la zona de gestión de la tienda y la presentación a través de la lógica de negocio solicita los datos de la tienda y una vez que los recibe muestra al encargado la vista de gestión de la tienda.   <br />
+El encargado accede al formulario de modificación/añadido de productos y la presentación solicita a la lógica de negocio los datos de este formulario y una vez que los recibe le muestra la vista cargada con el formulario.   <br />
+el encargado envía los datos del formulario y la presentación valida los datos enviados.   <br />
+Si existen errores carga la vista del formulario con esos errores.   <br />
+Si no existen la presentación solicita a través de la lógica de negocio a la persistencia grabar los valores del formulario.   <br />
+La persistencia envía a la presentación a través de la lógica de negocio los datos actualizados y la presentación le muestra la vista de la tienda actualizada.   </p></div>
+</div>
+<div id="GLO-0156" class="glo">
+<div id="GLO-0156-text-html" class=""><p><strong>Diagrama de secuencia [UC-0008] ver lista de citas y cancelarlas</strong>: La recepción accede a la zona de gestión de citas.   <br />
+La presentación solicita a través de la lógica de negocio a la persistencia los datos de las citas almacenadas en la aplicación.   <br />
+Una vez recibe estos datos, muestra a la recepción la lista de citas.   <br />
+La recepción accede an día en específico.   <br />
+La presentación solicita a la lógica de negocio los datos de un día, y una vez recibidos los muestra a la recepción.   <br />
+La recepción confirma la cancelación de una cita, la presentación graba los datos en la persistencia a través de la lógica de negocio.   </p></div>
+</div>
+<div id="GLO-0157" class="glo">
+<div id="GLO-0157-text-html" class=""><p><strong>Diagrama de secuencia [UC-0009] creación de facturas</strong>: La recepción accede a la zona de gestión de facturas.   <br />
+La capa de presentación solicita a través de la lógica de negocio los datos de facturas a la persistencia.   <br />
+Una vez recibe los datos, muestra la vista de listado de facturas.   <br />
+La recepción accede al formulario de creación de factura.   <br />
+La presentación solicita a la lógica de negocio los datos del formulario, y muestra la vista a la recepción.   <br />
+La recepción envía los datos, y la capa de persistencia almacena los datos enviados por la lógica de negocio, disponibles por la capa de presentación.   </p></div>
+</div>
+<div id="GLO-0158" class="glo">
+<div id="GLO-0158-text-html" class=""><p><strong>Diagrama de secuencia [UC-0010] gestionar trabajadores</strong>: El dueño accede a la zona de gestión de trabajadores.   <br />
+La capa de presentación solicita a través de la lógica de negocio los datos de trabajadores a la persistencia.   <br />
+Una vez recibe los datos, muestra la vista de listado de trabajadores.   <br />
+El dueño accede a los detalles de un trabajador.   <br />
+La presentación solicita a la lógica de negocio los datos, y muestra la vista al dueño.   <br />
+Al recibir los datos de la capa de lógica de negocio, muestra la vista al dueño de la clínica.</p></div>
+</div>
+<div id="GLO-0159" class="glo">
+<div id="GLO-0159-text-html" class=""><p><strong>Diagrama de secuencia [UC-0011] registro de trabajador</strong>: El dueño accede a la zona de gestión de trabajadores.   <br />
+La capa de presentación solicita a través de la lógica de negocio los datos de trabajadores a la persistencia.   <br />
+Una vez recibe los datos, muestra la vista de listado de trabajadores.   <br />
+El dueño accede al formulario de registro de trabajador.   <br />
+La presentación solicita a la lógica de negocio los datos del formulario, y muestra la vista al dueño.   <br />
+El dueño envía los datos del formulario, y si la capa de presentación detecta errores, refresca la vista de formulario con los errores correspondientes.   <br />
+Si los datos son correctos, graba en la persistencia el nuevo trabajador.</p></div>
+</div>
+<div id="GLO-0160" class="glo">
+<div id="GLO-0160-text-html" class=""><p><strong>Diagrama de secuencia [UC-0012] impresión de facturas</strong>: La recepción accede a la zona de gestión de facturas.   <br />
+La capa de presentación solicita a través de la lógica de negocio los datos de facturas a la persistencia.   <br />
+Una vez recibe los datos, muestra la vista de listado de facturas.   <br />
+La recepción accede a la impresión de una factura.   <br />
+La presentación solicita a la lógica de negocio la impresión de una factura, y cuando recibe los datos, le muestra la vista resumen de la impresión.</p></div>
 </div>
 <h1 id="SEC-0067" class="section">5 Interfaz de usuario del sistema</h1>
 <h2 id="SEC-0076" class="section">5.1 Diagramas de navegación del sistema</h2>
@@ -509,7 +594,7 @@ Avda. Reina Mercedes s/n   <br />
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 17:
                  </span>
-<span id="GRF-0042-name-html" class="">Diagrama de navegación área de clientes</span>
+<span id="GRF-0042-name-html" class=""><a href='#GLO-0138' class="rem_ref">Diagrama de navegación área de clientes</a></span>
 </p>
 </div>
 <div id="GRF-0043" class="figure">
@@ -517,7 +602,7 @@ Avda. Reina Mercedes s/n   <br />
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 18:
                  </span>
-<span id="GRF-0043-name-html" class="">Diagrama de navegación área de trabajadores</span>
+<span id="GRF-0043-name-html" class=""><a href='#GLO-0139' class="rem_ref">Diagrama de navegación área de trabajadores</a></span>
 </p>
 </div>
 <h2 id="SEC-0077" class="section">5.2 Esquemas de la interfaz de usuario del sistema</h2>
@@ -700,12 +785,12 @@ Avda. Reina Mercedes s/n   <br />
 </p>
 </div>
 <h2 id="SEC-0078" class="section">5.3 Descripción de la interfaz de usuario del sistema</h2>
-<div id="PRG-0138">
-<div id="PRG-0138-text-html" class=""><p><strong>Diagrama de navegación área de clientes:</strong> Representa la navegación por la interfaz de usuario de un cliente de la aplicación, lo primero con lo que se encuentra es con la página de bienvenida, que le ofrece el registro o log-in en el programa.   <br />
+<div id="GLO-0138" class="glo">
+<div id="GLO-0138-text-html" class=""><p><strong>Diagrama de navegación área de clientes</strong>: Representa la navegación por la interfaz de usuario de un cliente de la aplicación, lo primero con lo que se encuentra es con la página de bienvenida, que le ofrece el registro o log-in en el programa.   <br />
 Una vez que está autenticado, tiene varias zonas a las que acceder: solicitud de cita, visualizado de sesión, la tienda, o modificar su propio perfil.</p></div>
 </div>
-<div id="PRG-0139">
-<div id="PRG-0139-text-html" class=""><p><strong>Diagrama de navegación área de trabajadores:</strong> Representa la navegación por la interfaz de usuario de un trabajador, lo primero con lo que se encuentra es con la página de bienvenida, que solamente le ofrece el log-in en el programa.   <br />
+<div id="GLO-0139" class="glo">
+<div id="GLO-0139-text-html" class=""><p><strong>Diagrama de navegación área de trabajadores</strong>: Representa la navegación por la interfaz de usuario de un trabajador, lo primero con lo que se encuentra es con la página de bienvenida, que solamente le ofrece el log-in en el programa.   <br />
 Una vez autenticado, dependiendo del rol que tenga en la clínica el trabajador, le ofrece distintas vistas:</p>
 <ul>
 <li>Si es especialista, le ofrece el calendario de citas que tiene asignadas, lista de clientes globales, el perfil de un cliente en específico junto con sus tratamientos.</li>
@@ -808,6 +893,30 @@ Una vez autenticado, dependiendo del rol que tenga en la clínica el trabajador, 
 <div id="PRG-0148-text-html" class=""><p>No aplica</p></div>
 </div>
 <h1 id="SEC-0069" class="section">7 Información sobre trazabilidad</h1>
+<div id="GRF-0067" class="figure">
+<img class="figure_image" src=".\images\$clases_UC.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 42:
+                 </span>
+<span id="GRF-0067-name-html" class="">Matriz de trazabilidad de clases frente a diagramas de secuencia.</span>
+</p>
+</div>
+<div id="GRF-0068" class="figure">
+<img class="figure_image" src=".\images\$vistas_UC.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 43:
+                 </span>
+<span id="GRF-0068-name-html" class="">Matriz de trazabilidad de pantallas e informes frente a diagramas de secuencia.</span>
+</p>
+</div>
+<div id="GRF-0069" class="figure">
+<img class="figure_image" src=".\images\$vistas_clases.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 44:
+                 </span>
+<span id="GRF-0069-name-html" class="">Matriz de trazabilidad de pantallas e informes frente a clases.</span>
+</p>
+</div>
 <h1 id="SEC-0081" class="appendix">A Glosario de acrónimos y abreviaturas</h1>
 <div id="PRG-0147">
 <div id="PRG-0147-text-html" class=""><p>No aplica, no se han usado acrónimos del dominio del problema en este documento.</p></div>
