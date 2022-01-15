@@ -1,0 +1,26 @@
+title Registro de trabajador
+
+Dueño->Presentación:Accede a la zona de gestión de trabajadores
+Presentación->Lógica de negocio:Petición de zona de gestión de trabajadores
+Lógica de negocio->Persistencia:Petición de datos de las trabajadores
+Persistencia-->Lógica de negocio:Datos de trabajadores
+Lógica de negocio-->Presentación:Datos cargados
+Dueño<--Presentación:Vista de lista de trabajadores
+
+Dueño->Presentación:Accede al formulario de registro de trabajador
+Presentación->Lógica de negocio:Petición de formulario
+Lógica de negocio-->Presentación:Datos cargados en el formulario
+Dueño<--Presentación:Vista cargada con el formulario
+
+Dueño->Presentación:Envía los datos del formulario
+alt Datos erróneos en el formulario
+Presentación->Presentación: Valida los datos enviados
+Dueño<--Presentación:Vista cargada con el formulario y errores
+end
+Presentación->Lógica de negocio:Datos del formulario rellenados
+Lógica de negocio->Persistencia:Graba los datos en la base de datos
+
+
+
+
+

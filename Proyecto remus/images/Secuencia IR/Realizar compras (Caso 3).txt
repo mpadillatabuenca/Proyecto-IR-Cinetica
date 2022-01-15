@@ -1,0 +1,35 @@
+title Realizar compras
+
+Cliente->Presentación:Accede a la tienda
+Presentación->Lógica de negocio:Petición vista de tienda
+Lógica de negocio->Persistencia:Petición de datos de la tienda
+Persistencia-->Lógica de negocio:Datos de la tienda
+Lógica de negocio-->Presentación:Datos cargados
+Cliente<--Presentación:Vista de la tienda
+
+loop Mientras el cliente añada productos a la tienda
+Cliente->Presentación:Añade producto a la tienda
+Presentación->Lógica de negocio:Actualizado de la cesta
+Lógica de negocio-->Presentación:Datos actualizados de la cesta
+Cliente<--Presentación:Vista de la tienda actualizada
+end
+
+Cliente->Presentación:Confirma la cesta de la compra
+Presentación->Lógica de negocio:Petición vista solicitud de pago y dirección 
+Lógica de negocio-->Presentación:Datos cargados en el formulario
+Cliente<--Presentación:Vista solicitud de datos de pago y dirección o confirmación de esta
+
+Cliente->Presentación:Envía los datos del formulario
+alt Datos erróneos en el formulario
+Presentación->Presentación: Valida los datos enviados
+Cliente<--Presentación:Vista cargada con el formulario y errores
+end
+Presentación->Lógica de negocio:Datos del formulario rellenados
+Lógica de negocio->Persistencia:Graba los datos en la base de datos
+Persistencia-->Lógica de negocio:Datos del pedido
+Lógica de negocio-->Presentación:Datos cargados actualizados
+Cliente<--Presentación:Vista de compra confirmada
+
+
+
+

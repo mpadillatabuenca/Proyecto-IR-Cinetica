@@ -1,0 +1,18 @@
+title Realizar compras
+
+Usuario->Presentación:Accede a tienda on-line
+Presentación->Lógica de negocio:Petición de productos disponibles
+Lógica de negocio->Persistencia:Petición de productos disponibles
+Persistencia-->Lógica de negocio:Datos de la tienda
+Lógica de negocio-->Presentación:Datos cargados
+Usuario<--Presentación:Vista de la tienda
+loop Mientras el usuario quiera añadir productos a la cesta
+Usuario->Presentación:Añade un producto a la cesta
+Presentación->Lógica de negocio:Actualiza la información de la cesta
+Lógica de negocio-->Presentación:Devuelve cesta actualizada
+Presentación->Usuario:Enseña la tienda con cesta actualizada
+end
+Usuario->Presentación:Confirma compra
+Presentación->Lógica de negocio:Confirma la solicitud de compra
+Lógica de negocio-->Presentación:Datos cargados
+

@@ -1,0 +1,18 @@
+title Impresión de facturas
+
+Recepción->Presentación:Accede a la zona de gestión de facturas
+Presentación->Lógica de negocio:Petición de zona de gestión de facturas
+Lógica de negocio->Persistencia:Petición de datos de las facturas
+Persistencia-->Lógica de negocio:Datos de facturas
+Lógica de negocio-->Presentación:Datos cargados
+Recepción<--Presentación:Vista de lista de facturas
+
+Recepción->Presentación:Accede a la impresión de una factura
+Presentación->Lógica de negocio:Petición de impresión
+Lógica de negocio-->Presentación:Datos cargados en la impresión
+Recepción<--Presentación:Vista resumen de la impresión
+
+
+
+
+

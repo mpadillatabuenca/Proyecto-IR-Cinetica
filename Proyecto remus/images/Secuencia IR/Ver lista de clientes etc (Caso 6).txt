@@ -1,0 +1,33 @@
+title Ver lista de clientes, detalles, sus tratamientos y enviar gifs
+
+Especialista->Presentación:Accede a la zona de clientes
+Presentación->Lógica de negocio:Petición de lista de clientes
+Lógica de negocio->Persistencia:Petición de datos de clientes
+Persistencia-->Lógica de negocio:Datos de los clientes
+Lógica de negocio-->Presentación:Datos cargados
+Especialista<--Presentación:Vista de lista de clientes
+
+Especialista->Presentación:Accede a un cliente en específico
+Presentación->Lógica de negocio:Petición de perfil de cliente
+Lógica de negocio-->Presentación:Datos cargados
+Especialista<--Presentación:Vista de perfil de cliente como especialista
+
+
+Especialista->Presentación:Accede a un tratamiento 
+Presentación->Lógica de negocio:Petición de tratamiento
+Lógica de negocio-->Presentación:Datos cargados
+Especialista<--Presentación:Vista de tratamiento como especialista
+
+
+Especialista->Presentación:Accede al formulario de asignación de gifs
+Presentación->Lógica de negocio:Petición de formulario de gifs
+Lógica de negocio-->Presentación:Formulario cargado
+Especialista<--Presentación:Vista formulario asignación de gifs
+
+Especialista->Presentación:Envía selección de gifs
+Presentación->Lógica de negocio:Petición de almacenaje de asignación
+Lógica de negocio->Persistencia:Asocia el gif al cliente correspondiente
+
+
+
+

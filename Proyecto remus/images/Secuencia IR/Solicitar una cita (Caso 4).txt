@@ -1,0 +1,22 @@
+title Solicitar una cita
+
+Usuario->Presentación:Accede a la solicitud de cita
+Presentación->Lógica de negocio:Petición de disponibilidad de citas
+Lógica de negocio->Persistencia:Petición de datos de citas
+Persistencia-->Lógica de negocio:Datos de las citas
+Lógica de negocio-->Presentación:Datos cargados
+Usuario<--Presentación:Vista formulario de petición de cita
+Usuario->Presentación:Selecciona una fecha deseada
+Presentación ->Lógica de negocio:Solicita las horas disponibles
+Lógica de negocio -->Presentación:Horas disponibles ese día
+Presentación-->Usuario:Muestra las horas disponibles ese día
+Usuario->Presentación:Selecciona una hora deseada
+Presentación ->Lógica de negocio:Solicita los especialistas disponibles
+Lógica de negocio -->Presentación:Especialistas disponibles
+Presentación-->Usuario:Muestra los especialistas en esa fecha y hora
+Usuario->Presentación:Selecciona el especialista y realiza la petición
+Presentación->Lógica de negocio:Grabado de cita en el sistema
+Lógica de negocio->Persistencia:Almacenamiento de la cita
+
+
+

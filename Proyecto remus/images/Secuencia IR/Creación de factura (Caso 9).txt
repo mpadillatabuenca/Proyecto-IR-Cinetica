@@ -1,0 +1,22 @@
+title Creación de facturas
+
+Recepción->Presentación:Accede a la zona de gestión de facturas
+Presentación->Lógica de negocio:Petición de zona de gestión de facturas
+Lógica de negocio->Persistencia:Petición de datos de las facturas
+Persistencia-->Lógica de negocio:Datos de facturas
+Lógica de negocio-->Presentación:Datos cargados
+Recepción<--Presentación:Vista de lista de facturas
+
+Recepción->Presentación:Accede al formulario de creación de factura
+Presentación->Lógica de negocio:Petición de formulario
+Lógica de negocio-->Presentación:Datos cargados en el formulario
+Recepción<--Presentación:Vista cargada con el formulario
+
+Recepción->Presentación:Envía los datos del formulario
+Presentación->Lógica de negocio:Datos del formulario rellenados
+Lógica de negocio->Persistencia:Graba los datos en la base de datos
+
+
+
+
+

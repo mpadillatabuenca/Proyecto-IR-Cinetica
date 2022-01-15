@@ -1,0 +1,10 @@
+title Ver citas asignadas
+
+Especialista->Presentación:Accede a la zona de citas asignadas
+Presentación->Lógica de negocio:Petición de citas asignadas
+Lógica de negocio->Persistencia:Petición de datos de citas
+Persistencia-->Lógica de negocio:Datos de las citas
+Lógica de negocio-->Presentación:Datos cargados
+Especialista<--Presentación:Vista de zona de citas asignadas
+
+

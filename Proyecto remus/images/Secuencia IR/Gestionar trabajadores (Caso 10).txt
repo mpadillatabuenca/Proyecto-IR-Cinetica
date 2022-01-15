@@ -1,0 +1,18 @@
+title Gestionar trabajadores
+
+Dueño->Presentación:Accede a la zona de gestión de trabajadores
+Presentación->Lógica de negocio:Petición de zona de gestión de trabajadores
+Lógica de negocio->Persistencia:Petición de datos de las trabajadores
+Persistencia-->Lógica de negocio:Datos de trabajadores
+Lógica de negocio-->Presentación:Datos cargados
+Dueño<--Presentación:Vista de lista de trabajadores
+
+Dueño->Presentación:Accede a los detalles de un trabajador
+Presentación->Lógica de negocio:Petición de datos de un trabajador
+Lógica de negocio-->Presentación:Datos cargados en la vista
+Dueño<--Presentación:Vista cargada con el trabajador
+
+
+
+
+

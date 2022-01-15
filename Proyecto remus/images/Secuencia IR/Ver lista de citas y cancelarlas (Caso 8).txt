@@ -1,0 +1,21 @@
+title Ver lista de citas y cancelarlas
+
+Recepción->Presentación:Accede a la zona de gestión de citas
+Presentación->Lógica de negocio:Petición de lista citas
+Lógica de negocio->Persistencia:Petición de datos de citas
+Persistencia-->Lógica de negocio:Datos de las citas
+Lógica de negocio-->Presentación:Datos cargados
+Recepción<--Presentación:Vista de lista de citas
+
+Recepción->Presentación:Accede a una día en específico
+Presentación->Lógica de negocio:Petición de datos de un día
+Lógica de negocio-->Presentación:Datos cargados
+Recepción<--Presentación:Vista de datos de un día
+
+Recepción->Presentación:Cancela una cita de la lista
+Presentación->Lógica de negocio:Petición de almacenaje de cita cancelada
+Lógica de negocio-->Persistencia:Graba la cancelación de la cita
+
+
+
+

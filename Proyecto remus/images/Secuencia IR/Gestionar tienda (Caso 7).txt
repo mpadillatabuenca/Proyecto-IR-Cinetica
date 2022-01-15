@@ -1,0 +1,28 @@
+title Gestionar tienda
+
+Encargado de la tienda->Presentación:Accede a la zona de gestión de la tienda
+Presentación->Lógica de negocio:Petición de zona de gestión de tienda
+Lógica de negocio->Persistencia:Petición de datos de la tienda
+Persistencia-->Lógica de negocio:Datos de la tienda
+Lógica de negocio-->Presentación:Datos cargados
+Encargado de la tienda<--Presentación:Vista de gestión de la tienda
+
+Encargado de la tienda->Presentación:Accede al formulario de modificación/añadido de producto
+Presentación->Lógica de negocio:Petición de formulario
+Lógica de negocio-->Presentación:Datos cargados em el formulario
+Encargado de la tienda<--Presentación:Vista cargada con el formulario
+
+Encargado de la tienda->Presentación:Envía los datos del formulario
+alt Datos erróneos en el formulario
+Presentación->Presentación: Valida los datos enviados
+Encargado de la tienda<--Presentación:Vista cargada con el formulario y errores
+end
+Presentación->Lógica de negocio:Datos del formulario rellenados
+Lógica de negocio->Persistencia:Graba los datos en la base de datos
+Persistencia-->Lógica de negocio:Datos de la tienda actualizada
+Lógica de negocio-->Presentación:Datos cargados actualizados
+Encargado de la tienda<--Presentación:Vista de gestión de la tienda actualizada
+
+
+
+

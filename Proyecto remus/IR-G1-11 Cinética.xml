@@ -4511,6 +4511,174 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
+<rem:graphicFile oid="GRF-0030">
+<rem:name>[UC-0001] Modificación de perfil</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Modificar_perfil_seq1.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0031">
+<rem:name>[UC-0002] Ver tratamientos y gifs</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Ver_tratamientos_y_gifs_seq2.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0032">
+<rem:name>[UC-0003] Realizar compras</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=70%]<br/></rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Realizar_compras_seq3.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0033">
+<rem:name>[UC-0004] Solicitar cita</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Solicitar_cita_seq4.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0034">
+<rem:name>[UC-0005] Ver citas asignadas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Ver_citas_asignadas_seq5.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0035">
+<rem:name>[UC-0006] Ver lista de clientes etc</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Ver_lista_clientes_etc_seq6.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0036">
+<rem:name>[UC-0007] Gestionar tienda</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Gestionar_tienda_seq7.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0037">
+<rem:name>[UC-0008] Ver citas y cancelarlas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Ver_citas_y_cancelarlas_seq8.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0038">
+<rem:name>[UC-0009] Creación de factura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Creación_factura_seq9.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0039">
+<rem:name>[UC-00010] Gestionar trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Gestionar_trabajadores_seq10.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0040">
+<rem:name>[UC-00011] Registro de nuevo trabajador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Registro_nuevo_trabajador_seq11.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0041">
+<rem:name>[UC-00012] Impresión de facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Secuencia IR\$Impresion_facturas_seq12.png]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0075">
 <rem:name>Descripción de los diagramas de secuencia del sistema</rem:name>
@@ -4526,6 +4694,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.2 </rem:number>
+<rem:paragraph oid="PRG-0149">
+<rem:name>Descripción secuencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Hemos estimado que los diagramas son lo suficientemente simples como para no requerir descripción adicional.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0067">
@@ -4556,6 +4738,34 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.1 </rem:number>
+<rem:graphicFile oid="GRF-0042">
+<rem:name>Diagrama de navegación área de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\$Diagrama_navegacion_cliente.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0043">
+<rem:name>Diagrama de navegación área de trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=75%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$Diagrama_navegacion_trabajadores.png]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0077">
 <rem:name>Esquemas de la interfaz de usuario del sistema</rem:name>
@@ -4571,6 +4781,344 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.2 </rem:number>
+<rem:section oid="SEC-0094">
+<rem:name>Área de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>5.2.1 </rem:number>
+<rem:graphicFile oid="GRF-0045">
+<rem:name>Página de bienvenida</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Bienvenida_clientes.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0046">
+<rem:name>Registro de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Registro_clientes.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0047">
+<rem:name>Login de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Login_cliente.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0048">
+<rem:name>Perfil de cliente (página principal)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Perfil_cliente.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0049">
+<rem:name>Solicitud de cita</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Solicitud_cita_cliente.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0050">
+<rem:name>Detalles de sesión cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Sesion_especifica_cliente.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0051">
+<rem:name>Tienda cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Tienda_cliente.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0052">
+<rem:name>Carro de la compra</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area usuarios\$Carrito_compra.png]]></rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section oid="SEC-0095">
+<rem:name>Área de trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>5.2.2 </rem:number>
+<rem:graphicFile oid="GRF-0053">
+<rem:name>Bienvenida área de trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Bienvenida_trabajadores.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0054">
+<rem:name>Login trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Login_datos_trabajadores.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0055">
+<rem:name>Página principal especialistas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Area_de_especialista_logeado.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0058">
+<rem:name>Lista de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Lista_de_clientes.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0059">
+<rem:name>Detalles de cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Perfil_usuario_desde_especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0060">
+<rem:name>Detalles de sesión</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Sesion_desde_especialista.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0056">
+<rem:name>Página principal recepción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Area_gestion.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0057">
+<rem:name>Cancelación de cita</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Cancelar_cita.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0061">
+<rem:name>Lista de facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Gestion_de_facturas.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0062">
+<rem:name>Registro de factura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Registro_facturas.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0063">
+<rem:name>Lista de trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Lista_de_trabajadores.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0064">
+<rem:name>Registrar cuenta de trabajador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Registro_trabajadores.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0065">
+<rem:name>Página de gestión de tienda</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Gestionar_tienda.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0066">
+<rem:name>Añadir/modificar producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=80%]</rem:comments>
+<rem:fileName><![CDATA[.\images\Area trabajadores\$Añadido_modificacion_productos.png]]></rem:fileName>
+</rem:graphicFile>
+</rem:section>
 </rem:section>
 <rem:section oid="SEC-0078">
 <rem:name>Descripción de la interfaz de usuario del sistema</rem:name>
@@ -4586,6 +5134,34 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>5.3 </rem:number>
+<rem:paragraph oid="PRG-0138">
+<rem:name>Área de clientes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Diagrama de navegación área de clientes:** Representa la navegación por la interfaz de usuario de un cliente de la aplicación, lo primero con lo que se encuentra es con la página de bienvenida, que le ofrece el registro o log-in en el programa.<br/>Una vez que está autenticado, tiene varias zonas a las que acceder: solicitud de cita, visualizado de sesión, la tienda, o modificar su propio perfil.</rem:text>
+</rem:paragraph>
+<rem:paragraph oid="PRG-0139">
+<rem:name>Área de trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>**Diagrama de navegación área de trabajadores:** Representa la navegación por la interfaz de usuario de un trabajador, lo primero con lo que se encuentra es con la página de bienvenida, que solamente le ofrece el log-in en el programa.<br/>Una vez autenticado, dependiendo del rol que tenga en la clínica el trabajador, le ofrece distintas vistas:<br/>* Si es especialista, le ofrece el calendario de citas que tiene asignadas, lista de clientes globales, el perfil de un cliente en específico junto con sus tratamientos.<br/>* Si es gestor de la tienda, le ofrece la gestión de la propia tienda, junto con el formulario de creación/edición de producto. <br/>* Si es dueño o recepción, puede acceder al calendario de citas global de la aplicación, cancelar una de estas citas, o gestionar facturas. Por otra parte, si es exclusivamente el dueño, podrá acceder a la zona de gestionar trabajadores.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0068">
@@ -4616,6 +5192,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.1 </rem:number>
+<rem:graphicFile oid="GRF-0044">
+<rem:name>Diagrama de interfaz de servicios de la aplicación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>[width=95%]</rem:comments>
+<rem:fileName><![CDATA[.\images\$Diagrama_de_Interfaz_de_servicios.png]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0080">
 <rem:name>Descripción de la interfaz de servicios del sistema</rem:name>
@@ -4631,6 +5221,104 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.2 </rem:number>
+<rem:glossaryItem oid="GLO-0144">
+<rem:name>Servicios citas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* AñadirCita: Añade una cita a un cliente.<br/>* ModificarCita: Modifica una cita ya existente.<br/>* CancelarCita: Cancela una cita ya existente.<br/>* ConsultarCitas: Lista todas las citas.<br/>* ConsultarCitasPorEspecialista: Lista las citas filtrando por el especialista.<br/>* ConsultarCitasPorFechaYHora: Encuentra la cita asociada a un día y hora concretos.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0142">
+<rem:name>Servicios cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* RegistrarCliente: Crea un cliente en la base de datos.<br/>* ModificarCliente: Modifica un cliente ya existente.<br/>* ConsultarClientes: Lista todos los clientes.<br/>* EliminarCliente: Elimina un cliente ya existente.<br/>* EncontrarClientesPorNombre: Lista los clientes filtrando por el nombre.<br/>* EncontrarClientePorTeléfono: Encuentra a un cliente filtrando por el número de teléfono.<br/>* EncontrarClientePorDni: Encuentra a un cliente por el DNI.<br/>* ConsultarHistorial: Muestra el historial de un cliente concreto.<br/>* ModificarHistorial: Modifica el historial de un cliente concreto.<br/>* AsignarTratamiento: Asigna un tratamiento a un cliente concreto.<br/>* EliminarTratamiento: Elimina un tratamiento de un cliente concreto.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0146">
+<rem:name>Servicios facturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* CrearFactura: Añade una factura a la base de datos.	<br/>* ModificarFactura: Modifica una factura ya existente.<br/>* ConsultarFacturas: Lista todas las facturas.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0145">
+<rem:name>Servicios nóminas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* CrearNómina: Añade una nómina a la base de datos.<br/>* AsignarNóminaATrabajador: Asigna una nómina a un trabajador.<br/>* ModificarNómina: Modificar una nómina ya existente.<br/>* EliminarNómina: Elimina una nómina ya existente.<br/>* ConsultarNóminas: Lista todas las nóminas.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0141">
+<rem:name>Servicios pedido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* RegistrarPedido: Crea un pedido en la base de datos.<br/>* AñadirProducto: Añade un producto a un pedido.<br/>* ModificarPedido: Modifica un pedido ya creado, permitiendo modificar los atributos correspondientes.<br/>* EliminarProductoDePedido: Elimina un producto de un pedido.<br/>* Consultar Pedidos: Lista todos los pedidos.<br/>* ModificarDirección: Modifica la dirección de un producto ya existente.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0140">
+<rem:name>Servicios producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* ConsultarProductos: Lista todos los productos.<br/>* ConsultarProductosPorNombre: Lista los productos filtrados por un nombre dado.<br/>* RegistrarProducto: Crea un producto en la base de datos.<br/>* EliminarProducto: Elimina un producto de la base de datos.<br/>* ConsultarStock: Muestra el stock de un producto concreto<br/>* ModificarStock: Modifica el stock de un producto ya existente.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0143">
+<rem:name>Servicios trabajadores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text><br/>* RegistrarTrabajador: Crea un trabajador en la base de datos.<br/>* ModificarTrabajador: Modifica un trabajador ya existente.<br/>* ConsultarTrabajadores: Lista los trabajadores.<br/>* EliminarTrabajador: Elimina un trabajador.<br/>* EncontrarTrabajadoresPorNombres: Lista los trabajadores filtrando por nombre.<br/>* EncontrarTrabajadorPorTeléfono: Encuentra a un trabajador filtrando por el número de teléfono.<br/>* EncontrarTrabajadorPorDni: Encuentra a un trabajador filtrando por el DNI.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0084">
 <rem:name>Servicios consumidos por el sistema</rem:name>
@@ -4646,6 +5334,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.3 </rem:number>
+<rem:paragraph oid="PRG-0148">
+<rem:name>nO</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>No aplica</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section oid="SEC-0069">
@@ -4677,6 +5379,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>A </rem:number>
+<rem:paragraph oid="PRG-0147">
+<rem:name>Glosario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>No aplica, no se han usado acrónimos del dominio del problema en este documento.</rem:text>
+</rem:paragraph>
 </rem:appendix>
 </rem:d_requirementsSpecification>
 <rem:defectsSpecification oid = "DFS-0003">
@@ -4706,6 +5422,21 @@
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType oid="PVT-0003">
+<rem:name>Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Natural numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0004">
 <rem:name>String</rem:name>
 <rem:version>
@@ -4736,8 +5467,8 @@
 <rem:description>Integer numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0003">
-<rem:name>Natural</rem:name>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4747,8 +5478,8 @@
 <rem:day>30</rem:day>
 </rem:date>
 </rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Natural numbers</rem:description>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
@@ -4781,21 +5512,6 @@
 <rem:description>Real numbers</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0001">
@@ -4804,14 +5520,14 @@
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
@@ -4819,37 +5535,31 @@
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -4858,10 +5568,10 @@
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -4870,10 +5580,16 @@
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -4882,40 +5598,34 @@
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -4936,23 +5646,29 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
@@ -4960,26 +5676,26 @@
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
@@ -4987,48 +5703,51 @@
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
@@ -5037,9 +5756,6 @@
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
