@@ -332,7 +332,7 @@ Avda. Reina Mercedes s/n   <br />
 <h1 id="SEC-0065" class="section">3 Modelo de clases del sistema</h1>
 <h2 id="SEC-0072" class="section">3.1 Diagramas de clases del sistema</h2>
 <div id="GRF-0020" class="figure">
-<img class="figure_image" src=".\images\$modelo_de_datos.png" width="99%%" />
+<img class="figure_image" src=".\images\$modelo_de_datos.png" width="90%%" />
 <p class="figure_caption">
 <span class="figure_caption_label">Figura 2:
                  </span>
@@ -341,10 +341,10 @@ Avda. Reina Mercedes s/n   <br />
 </div>
 <h2 id="SEC-0073" class="section">3.2 Descripción de las clases del sistema</h2>
 <div id="PRG-0120">
-<div id="PRG-0120-text-html" class=""><p><strong>Persona:</strong> Esta superclase representa las cualidades comunes de los distintos roles de usuario de la aplicación. Contiene los siguientes atributos: nombre, apellidos, correo, contraseña, dirección, teléfono y DNI.</p></div>
+<div id="PRG-0120-text-html" class=""><p><strong>Persona:</strong> Esta superclase representa las cualidades comunes de los distintos roles de usuario de la aplicación. Contiene los siguientes atributos: nombre, apellidos, correo, contraseña, dirección, teléfono, DNI y URL del avatar (opcional).</p></div>
 </div>
 <div id="PRG-0122">
-<div id="PRG-0122-text-html" class=""><p><strong>Cliente:</strong> Esta clase representa los usuarios de la aplicación clientes de la clínica. Hereda de Persona y además contiene el atributo historial clínico.</p></div>
+<div id="PRG-0122-text-html" class=""><p><strong>Cliente:</strong> Esta clase representa los usuarios de la aplicación clientes de la clínica. Hereda de Persona y además contiene los atributos historial clínico y sesiones pagadas (un contador que se reduce en 1 cada sesión).</p></div>
 </div>
 <div id="PRG-0123">
 <div id="PRG-0123-text-html" class=""><p><strong>Trabajador:</strong> Esta superclase representa a los distintos roles de usuario trabajador de la clínica. Hereda de Persona y contiene el atributo cuenta bancaria.</p></div>
@@ -356,7 +356,7 @@ Avda. Reina Mercedes s/n   <br />
 <div id="PRG-0125-text-html" class=""><p><strong>Personal clínica:</strong> Esta clase representa al personal administrativo de la clínica. Hereda de Trabajador y contiene el atributo enumerado profesión</p></div>
 </div>
 <div id="PRG-0126">
-<div id="PRG-0126-text-html" class=""><p><strong>Cita:</strong> Esta clase representa las sesiones pasadas o futuras entre un cliente y un especialista. Contiene los siguientes atributos: fecha y hora, descripción del especialista y comentario para el cliente. Los estados que puede tomar esta clase vienen representados en el siguiente diagrama:</p></div>
+<div id="PRG-0126-text-html" class=""><p><strong>Cita:</strong> Esta clase representa las sesiones pasadas o futuras entre un cliente y un especialista. Contiene los siguientes atributos: fecha y hora, descripción del especialista, comentario para el cliente y motivo de la cita, además del atributo motivo de cancelación, a rellenar en caso de anulación de esta. Los estados que puede tomar esta clase vienen representados en el siguiente diagrama:</p></div>
 </div>
 <div id="GRF-0021" class="figure">
 <img class="figure_image" src=".\images\$diagramaEstadoCitas.png" />
@@ -367,13 +367,10 @@ Avda. Reina Mercedes s/n   <br />
 </p>
 </div>
 <div id="PRG-0127">
-<div id="PRG-0127-text-html" class=""><p><strong>Factura:</strong> Esta clase representa a las facturas asociadas a cada cliente. Puede tener una o más citas asociadas. Contiene los siguientes atributos: precio y método de pago.</p></div>
-</div>
-<div id="PRG-0129">
-<div id="PRG-0129-text-html" class=""><p><strong>Factura:</strong> Esta clase representa a las facturas asociadas a cada cliente. Puede tener una o más citas asociadas. Contiene los siguientes atributos: precio y método de pago.</p></div>
+<div id="PRG-0127-text-html" class=""><p><strong>Factura:</strong> Esta clase representa a las facturas asociadas a cada cliente. Puede tener una o más citas asociadas. Contiene los siguientes atributos: precio, método de pago y fecha de pago.</p></div>
 </div>
 <div id="PRG-0130">
-<div id="PRG-0130-text-html" class=""><p><strong>GIF:</strong> Esta clase representa los GIFs subidos al SGBD de la aplicación. Únicamente contiene el atributo URL del vídeo.</p></div>
+<div id="PRG-0130-text-html" class=""><p><strong>GIF:</strong> Esta clase representa los GIFs subidos al SGBD de la aplicación. Posee los atributos nombre y URL del vídeo.</p></div>
 </div>
 <div id="PRG-0131">
 <div id="PRG-0131-text-html" class=""><p><strong>Nómina:</strong> Esta clase representa la información de las nóminas asociadas a cada trabajador. Contiene los siguientes atributos: salario, día de pago, descuentos del IRPF, líquido total y cotización adicional.</p></div>
@@ -382,7 +379,7 @@ Avda. Reina Mercedes s/n   <br />
 <div id="PRG-0132-text-html" class=""><p><strong>Producto:</strong> Esta clase representa los productos subidos al stock de la tienda online de la aplicación. Contiene los siguientes atributos: nombre, precio, descripción, stock, URL de la imagen asociada y el enumerado tipo de producto.</p></div>
 </div>
 <div id="PRG-0133">
-<div id="PRG-0133-text-html" class=""><p><strong>Pedido:</strong> Esta clase representa los pedidos realizados por los distintos clientes de la aplicación a través de la tienda online. Contiene los siguientes atributos: fecha, método de pago y dirección de envío. Los estados que puede tomar esta clase vienen representados en el siguiente diagrama:</p></div>
+<div id="PRG-0133-text-html" class=""><p><strong>Pedido:</strong> Esta clase representa los pedidos realizados por los distintos clientes de la aplicación a través de la tienda online. Contiene los siguientes atributos: fecha, método de pago y dirección de envío, además del atributo derivado importe total. Los estados que puede tomar esta clase vienen representados en el siguiente diagrama:</p></div>
 </div>
 <div id="GRF-0022" class="figure">
 <img class="figure_image" src=".\images\$diagramaEstadoPedidos.png" />
